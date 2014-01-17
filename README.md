@@ -1,4 +1,4 @@
 kingsor.github.io
 =================
 
-My web site on GitHub
+[My web site](http://kingsor.github.io) on GitHub

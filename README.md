@@ -1,4 +1,12 @@
 kingsor.github.io
 =================
 
-[My web site](http://kingsor.github.io) on GitHub
+The source code of http://kingsor.github.io/ 
+adapted from http://twitter.github.io/
+
+LICENSE
+------------
+
+Copyright 2012 Twitter, Inc.
+
+Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0

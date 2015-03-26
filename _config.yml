@@ -1,0 +1,36 @@
+# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+highlighter: pygments
+
+# Permalinks
+permalink:        /:year/:month/:day/:title/
+
+# Setup
+name:             'One inch, at a time'
+title:            'My way'
+tagline:          'One inch, at a time'
+description:      'My journey in software development and beyond'
+
+# Author Details
+author:         'Kingsor'
+
+#Social Media links
+linkedin:       'https://www.linkedin.com/in/kingsor'
+twitter:        'https://twitter.com/kingsor'
+gplus:          'https://plus.google.com/u/0/+EdoardoInamo'
+github:         'https://github.com/kingsor'
+
+# Google Analytics
+gahandler: false
+
+# Disqus
+disqushandler: false
+
+# Blog Configurations
+paginate: 5 # Posts per page on the blog index
+paginate_path: '/blog/page:num'
+destination: ./_site
+
+# Custom vars
+version:          0.8

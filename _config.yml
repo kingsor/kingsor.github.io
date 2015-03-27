@@ -22,7 +22,7 @@ gplus:          'https://plus.google.com/u/0/+EdoardoInamo'
 github:         'https://github.com/kingsor'
 
 # Google Analytics
-gahandler: false
+gahandler: 'UA-3163855-4'
 
 # Disqus
 disqushandler: false

@@ -2,8 +2,7 @@
 layout: post
 title: "Money as a by-product"
 description: "About having a side project and turning it into something that is moderately successful; in particular, the challenge of making enough money to sustain the project and perhaps even elevating it from the sidelines so that it becomes something not so on the side at all. ..."
-category: Manager
-tags: [money,side-project,sustainability]
+tags: [manager,money,side-project,sustainability]
 ---
 
 source: [From Side Project to Not So Side Project][1] by [Elliot Jay Stocks][2]

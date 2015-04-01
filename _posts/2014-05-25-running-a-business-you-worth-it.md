@@ -2,8 +2,7 @@
 layout: post
 title: "Running a business you worth it"
 description: "To be authentic is to be trustworthy. If you’re selling snake oil, or doing Internet Marketing just to make a lot of money, you’re not being authentic. You’re selling something falsely. And people will figure that out, no matter how hard you try.  ..."
-category: Manager
-tags: [customer,management,product,trust]
+tags: [customer,manager,product,trust]
 ---
 
 source: [Principles for Running Your Business](http://blog.gumroad.com/post/85850299853/principles-for-running-your-business) about [Leo Babauta](http://leobabauta.com/bio) way to conduct his business.

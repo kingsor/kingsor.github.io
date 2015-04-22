@@ -56,10 +56,12 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
+    /*
   background: -webkit-linear-gradient(#009688, #00695C);
   background: -o-linear-gradient(#009688, #00695C);
   background: -moz-linear-gradient(#009688, #00695C);
   background: linear-gradient(#009688, #00695C);
+    */
 }
 @media (min-width: 48em) {
   .sidebar {

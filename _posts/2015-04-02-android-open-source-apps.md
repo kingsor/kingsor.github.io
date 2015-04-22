@@ -22,16 +22,17 @@ In addition to showing how to implement a wide variety of features that are usef
 
 [Instagram with Material Design concept is getting real - The Summary](http://frogermcs.github.io/Instagram-with-Material-Design-concept-is-getting-real-the-summary/) - This is just a summary of series of posts showing Android implementation of INSTAGRAM with Material Design concept. If you read previous posts about InstaMaterial project, you can skip this one.
 
-
-* [mikepenz/wall-splash-android](https://github.com/mikepenz/wall-splash-android) - wall:splash is a free open source android client for the awesome unsplash.com service (Free (do whatever you want) high-resolution photos).
+### wall:splash
+[mikepenz/wall-splash-android](https://github.com/mikepenz/wall-splash-android) - wall:splash is a free open source android client for the awesome unsplash.com service (Free (do whatever you want) high-resolution photos).
 
 * [Unsplash-android by mikepenz](http://mikepenz.github.io/wall-splash-android/) - nice presentation page about project on github, using github pages with theme by [orderedlist](https://github.com/orderedlist).
 
 
+### MyTracks
+[MyTracks](http://en.wikipedia.org/wiki/MyTracks) - MyTracks is a GPS tracking application for Android developed by Google and open sourced on March 2010. The project is hosted on [Google Project Hosting](https://code.google.com/p/mytracks/). The app is available on [Google Play](https://play.google.com/store/apps/details?id=com.google.android.maps.mytracks&hl=en). In 2014 the developers announced on the google code project site that My Tracks is no longer developed in the open and that the source will be removed on 01/01/2015.
 
-* [MyTracks](http://en.wikipedia.org/wiki/MyTracks) - MyTracks is a GPS tracking application for Android developed by Google and open sourced on March 2010. The project is hosted on [Google Project Hosting](https://code.google.com/p/mytracks/). The app is available on [Google Play](https://play.google.com/store/apps/details?id=com.google.android.maps.mytracks&hl=en). In 2014 the developers announced on the google code project site that My Tracks is no longer developed in the open and that the source will be removed on 01/01/2015.
-
-* [Philm is now open source](http://chris.banes.me/2014/06/18/philm-is-now-open-source/)  
+### Philm
+[Philm is now open source](http://chris.banes.me/2014/06/18/philm-is-now-open-source/)  
   If you haven't seen Philm yet, it is a movie collection and information app that I created for Android. It uses the Trakt and TMDB APIs.  
 This morning I pushed the source of Philm to [GitHub](https://github.com/chrisbanes/philm) under the Apache v2.0 licence.  
 This does not mean that I have stopped development, it's just got to the point where I'm happy with it so can share the source.  

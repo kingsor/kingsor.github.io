@@ -56,7 +56,11 @@ Screenshots
 ### Wordpress for Android
 The power of WordPress.com and self-hosted WordPress.org sites on your hands.
 
-![screenshot 1](/images/posts/wordpress-01.png) | ![screenshot 2](/images/posts/wordpress-02.png) | ![screenshot 3](/images/posts/wordpress-03.png)
+<div class="row">
+    <div class="col-xs-6"><img src="/images/posts/wordpress-01.png" class="img-responsive" /></div>
+    <div class="col-xs-6"><img src="/images/posts/wordpress-02.png" class="img-responsive" /></div>
+	<div class="col-xs-6"><img src="/images/posts/wordpress-03.png" class="img-responsive" /></div>
+</div>
 
 [Details](https://apps.wordpress.org/) | [Source](https://github.com/wordpress-mobile/WordPress-Android) | [Google Play](https://play.google.com/store/apps/details?id=org.wordpress.android)
 

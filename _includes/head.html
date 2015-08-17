@@ -1,15 +1,41 @@
 <head>
-  <meta charset="utf-8">
+  
   <title>
     {% if page.title %}
       {{ page.title }} &ndash;
     {% endif %}
     {{ site.name }}
   </title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
   <meta name="author" content="{{ site.author }}" />
   <meta name="description" content="{{ site.description }}" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
+  <meta name="twitter:site" content="{{ site.twitter }}">
+  <meta property="og:type" content="article">
+  
+  {% if page.title %}
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="twitter:title" content="{{ site.title }}">
+  {% else %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="twitter:title" content="{{ page.title }}">
+  {% endif %}
+  
+  {% if page.description %}
+  <meta name="twitter:description" content="{{ page.description | strip_html }}">
+  <meta property="og:description" content="{{ page.description | strip_html }}">
+  <meta name="description" content="{{ page.description | strip_html }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="description" content="{{ site.description }}">
+  {% endif %}
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
@@ -26,5 +52,5 @@
   <link rel="shortcut icon" href="/images/favicon-16.ico">
 
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script type="text/javascript" src="/js/application.js"></script>
+  
 </head>

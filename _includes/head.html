@@ -1,10 +1,10 @@
 <head>
   
   <title>
-    {% if page.title %}
+    {% if page.title != "Home" %}
       {{ page.title }} &ndash;
     {% endif %}
-    {{ site.name }}
+    {{ site.title }}
   </title>
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,7 @@
   <meta name="twitter:site" content="{{ site.twitter }}">
   <meta property="og:type" content="article">
   
-  {% if page.title %}
+  {% if if page.title == "Home" %}
   <meta property="og:title" content="{{ site.title }}">
   <meta property="twitter:title" content="{{ site.title }}">
   {% else %}

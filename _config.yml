@@ -7,9 +7,7 @@ highlighter: pygments
 permalink:        /:year/:month/:day/:title/
 
 # Setup
-name:             'One inch, at a time'
-title:            'My way'
-tagline:          'One inch, at a time'
+title:            'One inch, at a time'
 description:      'My journey in software development and beyond'
 
 # Author Details

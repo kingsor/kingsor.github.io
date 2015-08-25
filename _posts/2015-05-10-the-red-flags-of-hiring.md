@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Red Flags of Hiring"
-description: ""
+description: "If you apply to a position, it's important you write an email that feels like a human wrote it and says what you’ve done in as a few words as possible. If you’re looking for a position at a startup, an agency, or something in the online industry, this list of hiring red flags may help you avoid ending up in the immediate ‘no’ pile."
 category: Manager
 tags: [hiring,peopleware,management]
 ---

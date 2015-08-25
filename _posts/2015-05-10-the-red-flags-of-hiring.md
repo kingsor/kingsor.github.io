@@ -20,3 +20,9 @@ tags: [hiring,peopleware,management]
 
 > If you apply to a position we’re hiring for, we want to see an email that feels like a human wrote it and says what you’ve done in as a few words as possible. We want to follow up with a video call or meet in person. We want to grab beers, coffee, wine, or water and share stories into the night about how we see the world the same way and want to change it for the better, together.
 
+There is also a bonus: email examples from people [they] hired.
+
+> I thought it’d be helpful if I dug up a few emails my current teammates wrote when they were interested in joining Crew.
+
+> Every message is a bit different but they mostly avoided the red flags above and grabbed my attention by focusing on what they had done and saying it in a human way.
+

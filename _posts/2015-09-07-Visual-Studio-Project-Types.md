@@ -8,7 +8,7 @@ tags: [visual studio,project type,guid]
 
 Everything started opening a Visual Studio 2010 Solution and getting the following error: 'The project type is not supported by this installation.'
 
-So I looked for the `<ProjectTypeGuids>` in the `csproj` file. Then I looked for the GUIDs I found in order to understand what type of project is missing.
+So I looked for the `<ProjectTypeGuids>` in the `csproj` file. Then I looked for the GUIDs I found in order to understand what type of project was missing.
 
 I found a very usefull [List of Visual Studio Project Type GUIDs](http://www.codeproject.com/Reference/720512/List-of-Visual-Studio-Project-Type-GUIDs) on [CodeProject](http://www.codeproject.com/) by [Yvan Rodrigues](http://www.codeproject.com/Members/Yvan-Rodrigues).
 

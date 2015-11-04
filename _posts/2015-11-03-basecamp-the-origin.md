@@ -6,7 +6,7 @@ category: Manager
 tags: [basecamp,product development,37signals]
 ---
 
-[Jason Fried](https://medium.com/@jasonfried) describes how Basecamp became a product.
+[Jason Fried](https://medium.com/@jasonfried) describes how [Basecamp](http://basecamp.com/) became a product.
 
 > We went looking for a tool to do this. What we found were ancient relics from a time when project management meant blasting people with gantt charts, stats, and graphs. To us project management was all about communication. None of the software makers at the time seemed to agree. So we decided to make our own.
 

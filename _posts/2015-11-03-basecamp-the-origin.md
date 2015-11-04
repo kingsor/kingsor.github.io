@@ -14,7 +14,8 @@ tags: [basecamp,product development,37signals]
 
 > We started using it internally with our clients and they all kept asking “What is this thing? Can we use it to run our own projects?” Once you hear that enough, a lightbulb turns on and you say “Maybe we’ve got something here”. This idea, this thing we made for ourselves, perhaps it’s a product. If we need it, surely hundreds of thousands of businesses just like ours need it too.
 
-> So we spent a few more months tightening it up, improving it on every dimension, and then, on February 4, 2004, we released the first version of Basecamp.  
+> So we spent a few more months tightening it up, improving it on every dimension, and then, on February 4, 2004, we released the first version of Basecamp.
+
 > We decided early on that if we were able to generate around $5000/month after a year (or about $60,000 in annual revenue), we’d have a good thing going. Turns out, we hit that number in about 6 weeks. So we absolutely were on to something.
 
 source: [Basecamp: The origin story](https://medium.com/woah-basecamp-3/basecamp-the-origin-story-f509fdd725f8)

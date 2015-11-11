@@ -246,11 +246,11 @@ a.sidebar-nav-item:focus {
 
 /* Magenta */
 .theme-base-0e .sidebar {
-  background-color: #aa759f;
+  background-color: #8248B9;
 }
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
+  color: #8248B9;
 }
 
 /* Brown */
@@ -265,7 +265,7 @@ a.sidebar-nav-item:focus {
 .lead {
   font-size: 0.9rem;
 }
-  
+
 .icon:before {
   font-family: "foundation-icons";
   font-style: normal;
@@ -283,7 +283,7 @@ a.sidebar-nav-item:focus {
   margin: 0;
   padding: 0;
   list-style-type: none; }
-  
+
 .sidebar-social {
   margin-bottom: 1rem; }
   .sidebar-social a {
@@ -294,12 +294,12 @@ a.sidebar-nav-item:focus {
     .sidebar-social a .icon {
       display: block;
       font-size: 1.34em; }
-  
+
 .social-item {
   display: inline-block;
   margin: 1px;
- }  
-      
+ }
+
 .social-item a {
   display: block;
   position: relative;
@@ -318,7 +318,7 @@ a.sidebar-nav-item:focus {
   border-radius: 50%;
   border: 3px solid #FFF;
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3); }
-  
+
 .post-comments {
   border-top: 1px solid #dddddd;
   padding: 60px 0; }
@@ -364,7 +364,7 @@ a.sidebar-nav-item:focus {
 .twitter a:hover {
   color: #64B5F6;
   border-color: #64B5F6; }
-  
+
 .gplus a:hover {
   color: #E57373;
   border-color: #E57373; }
@@ -372,19 +372,19 @@ a.sidebar-nav-item:focus {
 .github a:hover {
   color: #90A4AE;
   border-color: #90A4AE; }
-  
+
 .stackoverflow a:hover {
   color: #FFD54F;
   border-color: #FFD54F; }
-  
+
 .foursquare a:hover {
   color: #7986CB;
-  border-color: #7986CB; }  
-  
+  border-color: #7986CB; }
+
 .linkedin a:hover {
   color: #64B5F6;
-  border-color: #64B5F6; }    
+  border-color: #64B5F6; }
 
 .mail a:hover {
   color: #4DB6AC;
-  border-color: #4DB6AC; }  
+  border-color: #4DB6AC; }

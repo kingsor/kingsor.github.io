@@ -14,6 +14,8 @@ Here is the opening Keynote by [Dave Burke](https://twitter.com/davey_burke), VP
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xdItHEVfQ4U?list=PLWz5rJ2EKKc_Tt7q77qwyKRgytF1RzRx8" frameborder="0" allowfullscreen></iframe>
 
+---
+
 Here is the schedule of the two days event.
 
 ### Day 1: Framework Skills

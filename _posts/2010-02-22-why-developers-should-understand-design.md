@@ -3,7 +3,7 @@ layout: post
 title: "Why Developers Should Understand Design"
 description: "Why it is usefull for developers to understand desing."
 category: Developer
-tags: [developer,android,listview,empty]
+tags: [developer,design,ux,ui]
 ---
 
 source: [A Generalist Mentality](http://gluue.com/2010/02/a-generalist-mentality/)

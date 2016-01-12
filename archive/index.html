@@ -15,6 +15,7 @@ description: Page with links to all old articles of the blog
         <h3>{{ post.date | date: '%Y' }}</h3>
       {% endif %}
     {% endunless %}
-    <li class="alink"><a href="{{ post.url }}" class="green-link">{{ post.title }}</a></li>
+    <li class="alink"><a href="{{ post.url }}" class="green-link">{{ post.title }}</a>
+      (<span class="post-date">{{ post.date | date: "%B %e" }}</span>)</li>
   {% endfor %}
 </ul>

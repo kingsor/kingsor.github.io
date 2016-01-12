@@ -16,6 +16,6 @@ description: Page with links to all old articles of the blog
       {% endif %}
     {% endunless %}
     <li class="alink"><a href="{{ post.url }}" class="green-link">{{ post.title }}</a>
-      (<span class="post-date">{{ post.date | date: "%B %e" }}</span>)</li>
+      ({{ post.date | date: "%B %e" }})</li>
   {% endfor %}
 </ul>

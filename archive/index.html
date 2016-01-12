@@ -4,22 +4,17 @@ title: Archive
 description: Page with links to all old articles of the blog
 ---
 
-<section class="content container">
-    <div class="page">
-        <h1 class="page-title">{{ page.title }}</h1>
-        <ul>
-          {% for post in site.posts %}
-            {% unless post.next %}
-              <h3>{{ post.date | date: '%Y' }}</h3>
-            {% else %}
-              {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-              {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-              {% if year != nyear %}
-                <h3>{{ post.date | date: '%Y' }}</h3>
-              {% endif %}
-            {% endunless %}
-            <li class="alink"><a href="{{ post.url }}" class="green-link">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-    </div>
-</section>
+<ul>
+  {% for post in site.posts %}
+    {% unless post.next %}
+      <h3>{{ post.date | date: '%Y' }}</h3>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h3>{{ post.date | date: '%Y' }}</h3>
+      {% endif %}
+    {% endunless %}
+    <li class="alink"><a href="{{ post.url }}" class="green-link">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

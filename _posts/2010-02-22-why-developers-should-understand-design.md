@@ -3,7 +3,11 @@ layout: post
 title: "Why Developers Should Understand Design"
 description: "Why it is usefull for developers to understand desing."
 category: Developer
-tags: [developer,design,ux,ui]
+tags:
+- developer
+- design
+- ux
+- ui
 ---
 
 source: [A Generalist Mentality](http://gluue.com/2010/02/a-generalist-mentality/)
@@ -15,4 +19,3 @@ source: [A Generalist Mentality](http://gluue.com/2010/02/a-generalist-mentality
 > From our small (yet global) studio perspective, it’s in our best interest to be generalists. Generalists are big picture people. They get the connections between things, and they understand the world view.
 
 > Specialsts have their place, and in a big company they absolutely fit in. But in small business like ours, we thrive off diversely talented people who are good at understanding many things.
-

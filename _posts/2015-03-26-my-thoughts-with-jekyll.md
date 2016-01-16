@@ -2,7 +2,11 @@
 layout: post
 title: "My Thoughts with Jekyll"
 description: "I decided to update my site hosted on GitHub using GitHub Pages and Jekyll. I was curious about static site generators and I started my search through StaticGen ..."
-tags: [blogging,jekyll,static site generator,developer]
+tags:
+- blogging
+- jekyll
+- static-site-generator
+- developer
 ---
 
 I decided to update my site hosted on GitHub using [GitHub Pages](https://pages.github.com/) and [Jekyll](http://jekyllrb.com/). I was curious about static site generators and I started my search through [StaticGen](https://www.staticgen.com/) filtering for C# language.

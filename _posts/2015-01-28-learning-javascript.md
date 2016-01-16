@@ -3,7 +3,10 @@ layout: post
 title: "Learning Javascript"
 description: "This is a list of interesting links I collected with the goal of learning javascript."
 category: Developer
-tags: [javascript,development,learning]
+tags:
+- javascript
+- development
+- learning
 ---
 
 This is a list of interesting links I collected with the goal of learning javascript.
@@ -26,7 +29,7 @@ This is a list of interesting links I collected with the goal of learning javasc
   Are you a programmer who is considering learning JavaScript, but unsure whether it is worth the pain? Then this blog post is for you: I argue that it is worth it and give tips for surviving the language.
 * [Basic JavaScript for the impatient programmer](http://www.2ality.com/2013/06/basic-javascript.html) (Jun 22, 2013) by [Axel Rauschmayer](http://rauschma.de/)   
   This blog post enables you to get started with JavaScript as quickly as possible – if you already know how to program. It describes the smallest subset of the language that allows you to be productive. I call that subset “Basic JavaScript” and recommend to program in it for a while, before moving on to more details and advanced topics. Learning everything at once is too confusing. The post concludes with tips for what to learn next.  
-   This blog post has become a chapter in the book “[Speaking JavaScript](http://speakingjs.com/es5/)”. You can read it here: “[Basic JavaScript](http://speakingjs.com/es5/ch01.html)”. 
+   This blog post has become a chapter in the book “[Speaking JavaScript](http://speakingjs.com/es5/)”. You can read it here: “[Basic JavaScript](http://speakingjs.com/es5/ch01.html)”.
 * [Understanding module.exports and exports in Node.js](http://www.sitepoint.com/understanding-module-exports-exports-node-js/) - As developers, we often face situations where we need to use unfamiliar code. A question will arise during these moments. How much time should I invest in understanding the code that I’m about to use? A typical answer is learn enough to start coding; then explore that topic further when time permits. Well, the time has come to gain a better understanding of module.exports and exports in Node.js. Here’s what I have learned.
 * [10 Most Common JavaScript Mistakes](http://www.toptal.com/javascript/10-most-common-javascript-mistakes) (July 7, 2014)  
   At first blush, JavaScript may seem quite simple. And indeed, to build basic JavaScript functionality into a web page is a fairly straightforward task for any experienced software developer, even if they’re new to JavaScript. Yet the language is significantly more nuanced, powerful, and complex than one would initially be lead to believe. Indeed, many of JavaScript’s subtleties lead to a number of common mistakes – 10 of which we discuss here – that are important to be aware of and avoid in one’s quest to become a master JavaScript developer.
@@ -49,7 +52,7 @@ This is a list of interesting links I collected with the goal of learning javasc
   In JavaScript, functions are first-class objects, which means functions can be used in a first-class manner like objects, since they are in fact objects themselves: They can be “stored in variables, passed as arguments to functions, created within functions, and returned from functions” [First Class](http://c2.com/cgi/wiki?FirstClass) definition.  
   Because functions are first-class objects, we can use callback functions in JavaScript. In the rest of this article we will learn everything about callback functions. Callback functions are probably the most widely used functional programming technique in JavaScript, and they are literally in just about every piece of JavaScript and jQuery code, yet they are a mystery to many JavaScript developers. You will know how to use them after reading this article.
 * [Understanding JavaScript Callbacks](http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/) (2013)  
-  When I got started working with Node.js and Express, one of the first things I had to really wrap my head around was JavaScript callbacks. This is a powerful functionality built into the language that allows you to defer action until a desired event occurs, while proceeding on with other activities. 
+  When I got started working with Node.js and Express, one of the first things I had to really wrap my head around was JavaScript callbacks. This is a powerful functionality built into the language that allows you to defer action until a desired event occurs, while proceeding on with other activities.
 * [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)  
   Design patterns also provide us a common vocabulary to describe solutions. This can be significantly simpler than describing syntax and semantics when we're attempting to convey a way of structuring a solution in code form to others.  
   In this book we will explore applying both classical and modern design patterns to the JavaScript programming language.

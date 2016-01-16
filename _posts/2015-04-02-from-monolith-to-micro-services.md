@@ -3,7 +3,11 @@ layout: post
 title: "From Monolith to Micro-Services"
 description: "Micro-services are not (only) about technology"
 category: Developer
-tags: [development,micro-services,scalability,architecture]
+tags:
+- development
+- micro-services
+- scalability
+- architecture
 ---
 
 source: [Micro-Services for Dysfunctional Teams](http://dejanglozic.com/2015/03/03/micro-services-for-dysfunctional-teams/)
@@ -19,4 +23,3 @@ source: [Micro-Services for Dysfunctional Teams](http://dejanglozic.com/2015/03/
 [...]
 
 > Next time you are in position to pitch micro-services to a worried project manager or product owner, don’t forget that technology is really not what you are selling – you are selling a solution for process, governance, cost of operation and scalability issues, not a technology. You are selling the ability to fix a typo on a prominent page of your large system within minutes without touching the rest of the system. You are promising the ability to maneuver an oil tanker as if it was a canoe, in a world full of oil tankers.
-

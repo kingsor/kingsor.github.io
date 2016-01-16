@@ -1,9 +1,13 @@
 ---
 layout: post
 title: "Restoring Factory Settings on Android Device"
-description: "I was looking for restoring my old Samsung Galaxy S2 and so I restored my other device."
+description: "I was looking for restoring my old Samsung Galaxy S2 for using it as a test machine and here is how I made."
 category: Developer
-tags: [mobile,android,development,configuration]
+tags:
+- mobile
+- android
+- development
+- configuration
 ---
 
 I was looking for restoring my old Samsung Galaxy S2 and I found a solution at the following link: [Restoring factory settings on the Samsung Galaxy S II](http://support.vodafone.com.au/articles/FAQ/How-to-restore-factory-settings-on-the-Samsung-Galaxy-S-II)

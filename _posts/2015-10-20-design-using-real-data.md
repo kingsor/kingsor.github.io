@@ -3,7 +3,11 @@ layout: post
 title: "Design Using Real Data"
 description: "I believe one of the biggest flaws of today’s tools is their failure to allow designers to easily work with real data."
 category: Designer
-tags: [design,tools,data,ui]
+tags:
+- design
+- tools
+- data
+- ui
 ---
 
 *source*: [Modern Design Tools: Using Real Data](https://medium.com/bridge-collection/modern-design-tools-using-real-data-62d499e97482) (Jun 15, 2015)

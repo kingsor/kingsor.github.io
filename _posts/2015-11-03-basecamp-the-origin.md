@@ -3,7 +3,11 @@ layout: post
 title: "Basecamp The origin"
 description: "To us project management was all about communication. None of the software makers at the time seemed to agree. So we decided to make our own."
 category: Manager
-tags: [basecamp,product development,37signals]
+tags:
+- basecamp
+- product
+- product-development
+- 37signals
 ---
 
 [Jason Fried](https://medium.com/@jasonfried) describes how [Basecamp](http://basecamp.com/) became a product.

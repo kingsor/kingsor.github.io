@@ -3,7 +3,12 @@ layout: post
 title: "Android Dev Summit 2015"
 description: "On November 23rd and 24th there has been the annual Android Dev Summit from the Computer History Museum in Mountain View. This is a note-to-self about the related YouTube channel."
 category: Developer
-tags: [mobile,android,development,ide,devsummit,2015]
+tags:
+- mobile
+- android
+- development
+- ide
+- devsummit-2015
 ---
 
 On November 23rd and 24th there has been the annual [Android Dev Summit](https://androiddevsummit.withgoogle.com/) from the [Computer History Museum](http://www.computerhistory.org/) in Mountain View.
@@ -43,4 +48,3 @@ Here is the schedule of the two days event.
 * [Android Studio for Experts](https://www.youtube.com/watch?v=Y2GC6P5hPeA)
 * [Developing for Android: the Naughty Bits](https://www.youtube.com/watch?v=Q2qQoJlwqlk)
 * [Android Tools and Testing Fireside Chat](https://www.youtube.com/watch?v=LMyfEtElLQQ)
-

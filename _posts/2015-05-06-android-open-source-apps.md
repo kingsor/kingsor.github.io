@@ -3,11 +3,17 @@ layout: post
 title: "Android Open Source Apps"
 description: "In order to improve my skills on android development I always search for sample code and valueable apps from which learning new things. ..."
 category: Developer
-tags: [android,app,open source,learning,developer,mobile]
+tags:
+- android
+- app
+- open-source
+- learning
+- developer
+- mobile
 ---
 
 In order to improve my skills on android development I always search for sample code and valueable apps from which learning new things.
-Here is my list of android apps I found with source code available. 
+Here is my list of android apps I found with source code available.
 This post has been inspired from this article about [great android apps that are also open source](http://blog.interstellr.com/post/39321551640/14-great-android-apps-that-are-also-open-source).
 
 ### wall:splash
@@ -18,7 +24,7 @@ wall:splash is a free open source android client for the awesome [Unsplash](http
 [Details](http://wallsplashapp.com/) | [Source](https://github.com/mikepenz/wall-splash-android) | [Google Play](https://play.google.com/store/apps/details?id=com.mikepenz.unsplash)
 
 ### Philm
-Philm is a movie collection and information app created for Android by [Chris Banes](http://chris.banes.me). It uses the Trakt and TMDB APIs. 
+Philm is a movie collection and information app created for Android by [Chris Banes](http://chris.banes.me). It uses the Trakt and TMDB APIs.
 
 ![screenshot 1](/images/posts/philm-01.png) | ![screenshot 2](/images/posts/philm-02.png) | ![screenshot 3](/images/posts/philm-03.png) | ![screenshot 3](/images/posts/philm-04.png)
 
@@ -59,5 +65,3 @@ The power of WordPress.com and self-hosted WordPress.org sites on your hands.
 ![screenshot 1](/images/posts/wordpress-01.png) | ![screenshot 2](/images/posts/wordpress-02.png) | ![screenshot 3](/images/posts/wordpress-03.png)
 
 [Details](https://apps.wordpress.org/) | [Source](https://github.com/wordpress-mobile/WordPress-Android) | [Google Play](https://play.google.com/store/apps/details?id=org.wordpress.android)
-
-

@@ -3,7 +3,10 @@ layout: post
 title: "Things learned at Imgur"
 description: "A usefull list curated by Sam Gerstenzang about 16 product things he learned at Imgur."
 category: Manager
-tags: [product,management]
+tags:
+- product
+- management
+- lessons-learned
 ---
 
 source: [16 product things I learned at Imgur](https://medium.com/@gerstenzang/16-product-things-i-learned-at-imgur-4e58b936759c) by [Sam Gerstenzang](https://twitter.com/gerstenzang)
@@ -24,4 +27,3 @@ source: [16 product things I learned at Imgur](https://medium.com/@gerstenzang/1
 * Use your first few weeks at a new company to understand your product’s history and match it against reality. Ask questions. Write everything down. Don’t imply incompetence. Don’t make rash judgements.
 * Some people want to see the big picture, some people want to see just the next step. Try to provide both, and connect the two clearly.
 * Most partnerships are a waste of time. All partnerships take a lot of time.
-

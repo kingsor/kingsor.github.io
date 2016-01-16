@@ -5,22 +5,17 @@ layout: default
 <section class="content container">
     <div class="post">
         <h1 class="post-title">{{ page.title }}</h1>
-        <span class="post-date">{{ page.date | date: "%B %e, %Y" }}</span>
-        <h3>
-          <small>
-            <i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%b %d, %Y" }}
-            <br/>
-            <i class="fa fa-tags"></i>&nbsp;
-            {% if page.tags == null %}
-              Not tagged
-            {% else %}
-              {% for tag in page.tags %}
-                <a href="/tags#{{ tag | slugify }}-ref">{{ tag | capitalize}}</a>
-              {% endfor %}
-            {% endif %}
-
-          </small>
-        </h3>
+        <span class="post-date"><i class="fi-calendar"></i>&nbsp;{{ page.date | date: "%b %e, %Y" }}</span>
+        <span class="post-date">
+          <i class="fi-price-tag"></i>&nbsp;
+          {% if page.tags == null %}
+            Not tagged
+          {% else %}
+            {% for tag in page.tags %}
+              <a href="/tags#{{ tag | slugify }}-ref">{{ tag | capitalize}}</a>
+            {% endfor %}
+          {% endif %}
+        </span>
         {{ content }}
     </div>
 </section>

@@ -5,7 +5,7 @@ description: "I decided to update my site hosted on GitHub using GitHub Pages an
 tags:
 - blogging
 - jekyll
-- static-site-generator
+- static site generator
 - developer
 ---
 

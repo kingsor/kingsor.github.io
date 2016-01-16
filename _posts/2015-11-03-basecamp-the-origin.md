@@ -6,7 +6,7 @@ category: Manager
 tags:
 - basecamp
 - product
-- product-development
+- product development
 - 37signals
 ---
 

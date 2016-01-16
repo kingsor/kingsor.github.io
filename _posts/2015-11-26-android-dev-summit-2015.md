@@ -8,7 +8,7 @@ tags:
 - android
 - development
 - ide
-- devsummit-2015
+- devsummit 2015
 ---
 
 On November 23rd and 24th there has been the annual [Android Dev Summit](https://androiddevsummit.withgoogle.com/) from the [Computer History Museum](http://www.computerhistory.org/) in Mountain View.

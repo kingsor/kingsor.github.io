@@ -5,8 +5,8 @@ description: "Everything started opening a Visual Studio 2010 Solution and getti
 category: Developer
 tags:
 - developer
-- visual-studio
-- project-type
+- visual studio
+- project type
 - guid
 ---
 

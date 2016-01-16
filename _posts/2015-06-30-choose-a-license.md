@@ -5,7 +5,7 @@ description: "A lot of repositories on GitHub.com don't have a license. GitHub p
 category: Developer
 tags:
 - management
-- open-source
+- open source
 - license
 ---
 

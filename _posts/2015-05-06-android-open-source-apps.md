@@ -6,7 +6,7 @@ category: Developer
 tags:
 - android
 - app
-- open-source
+- open source
 - learning
 - developer
 - mobile

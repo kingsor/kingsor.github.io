@@ -6,7 +6,7 @@ category: Manager
 tags:
 - product
 - management
-- lessons-learned
+- lessons learned
 ---
 
 source: [16 product things I learned at Imgur](https://medium.com/@gerstenzang/16-product-things-i-learned-at-imgur-4e58b936759c) by [Sam Gerstenzang](https://twitter.com/gerstenzang)

@@ -1,21 +1,23 @@
 ---
 layout: page
 title: Archive
-description: Page with links to all old articles of the blog
+description: Page with links to all articles of the blog
 ---
 
 <ul>
   {% for post in site.posts %}
-    {% unless post.next %}
-      <h3>{{ post.date | date: '%Y' }}</h3>
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
+    {% unless post.draft %}
+      {% unless post.next %}
         <h3>{{ post.date | date: '%Y' }}</h3>
-      {% endif %}
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          <h3>{{ post.date | date: '%Y' }}</h3>
+        {% endif %}
+      {% endunless %}
+      <li class="alink"><a href="{{ post.url }}" class="green-link">{{ post.title }}</a>
+        ({{ post.date | date: "%B %e" }})</li>
     {% endunless %}
-    <li class="alink"><a href="{{ post.url }}" class="green-link">{{ post.title }}</a>
-      ({{ post.date | date: "%B %e" }})</li>
   {% endfor %}
 </ul>

@@ -5,11 +5,6 @@ description: Resources usefull for everyday work as a developer.
 ---
 
 * [The Busy Coder's Guide to Android Development](https://commonsware.com/Android/) - for Android Studio 1.5, covering the Android SDK through 6.0
-* [Material Palette](https://www.materialpalette.com/) - Choose your favorite colors and get your Material Design palette generated and downloadable.
-* [Material icons](https://design.google.com/icons/) - Material icons are beautifully crafted, delightful, and easy to use in your web, Android, and iOS projects.
-* [MaterialUp](http://www.materialup.com/) - MaterialUp curates the best of Material Design inspiration, tools and freebies. Get your daily dose of Material design inspiration!
-* [Color - Style - Google design guidelines](http://www.google.co.in/design/spec/style/color.html#color-color-palette)
-* [Color Hunt](http://colorhunt.co/) - Curated collection of beautiful colors, updated daily.
 * [Twitter Card validator](https://cards-dev.twitter.com/validator)
 * [Methods Count](http://www.methodscount.com/) - Your solution for a perfectly fit APK
 * [jsonschema2pojo](http://www.jsonschema2pojo.org/) - Generate Plain Old Java Objects from JSON or JSON-Schema.
@@ -21,9 +16,14 @@ description: Resources usefull for everyday work as a developer.
 
 ### Inspiration
 * [UpLabs](http://www.uplabs.com/) - Daily Resources For Designers & Developers, UpLabs curates inspiration, tools & products to build apps & sites.
-* [MaterialUp](http://www.materialup.com/) - MaterialUp curates the best of Material Design, daily.
+* [MaterialUp](http://www.materialup.com/) - MaterialUp curates the best of Material Design inspiration, tools and freebies. Daily.
+* [Color Hunt](http://colorhunt.co/) - Curated collection of beautiful colors, updated daily.
 
-### Android UX
+### Android UI/UX
+* [Material Palette](https://www.materialpalette.com/) - Choose your favorite colors and get your Material Design palette generated and downloadable.
+* [Material icons](https://design.google.com/icons/) - Material icons are beautifully crafted, delightful, and easy to use in your web, Android, and iOS projects.
+* [Color - Style - Google design guidelines](http://www.google.co.in/design/spec/style/color.html#color-color-palette)
+* [awesome Android UI](https://github.com/wasabeef/awesome-android-ui) - A curated list of awesome Android UI/UX libraries.
 * [#androiduiux](http://androiduiux.com/)
 * [Android UI Patterns](http://www.androiduipatterns.com/)
 * [Android Niceties](http://androidniceties.tumblr.com/)

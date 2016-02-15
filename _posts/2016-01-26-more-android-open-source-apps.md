@@ -46,7 +46,7 @@ The official [ribot](http://ribot.co.uk/) app for android. It follows the archit
 ### Munch
 Munch is an android app which enable the users to manage their Rss feeds. User can add new sources, manage them and view the article associated with the feeds.
 
-![screenshot 1](http://kingsor.github.io/images/posts/munch-01.png) | ![screenshot 2](http://kingsor.github.io/images/posts/munch-02.png) | ![screenshot 3](http://kingsor.github.io/images/posts/munch-03.png)
+![screenshot 1](http://kingsor.github.io/images/posts/munch-01.png) | ![screenshot 2](http://kingsor.github.io/images/posts/munch-02.png) | ![screenshot 3](http://kingsor.github.io/images/posts/munch-03.png) | ![screenshot 4](http://kingsor.github.io/images/posts/munch-04.png)
 
 [Source](https://github.com/crazyhitty/Munch) | [Google Play](https://play.google.com/store/apps/details?id=com.crazyhitty.chdev.ks.munch)
 

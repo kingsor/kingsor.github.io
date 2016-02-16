@@ -27,8 +27,7 @@ gahandler: 'UA-3163855-4'
 disqushandler: false
 
 # Blog Configurations
-paginate: 5 # Posts per page on the blog index
-paginate_path: '/blog/page:num'
+paginate: 5
 destination: ./_site
 
 # Custom vars

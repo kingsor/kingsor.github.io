@@ -46,3 +46,5 @@ function copyFileContent(savPath, srcPath) {
   });
 }
 {% endhighlight %}
+
+Here is a post about [Reading and Writing File in Node.js](http://www.javabeat.net/nodejs-read-write-file/) that explain how to use *fs* module for file I/O operations.

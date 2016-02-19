@@ -3,7 +3,6 @@ layout: post
 title: "How to read a file and write it again with separate functions with node.js"
 description: "I've found a nice solution for reading a file, be able to perform other operations with the read data and write it to another file."
 category: Developer
-draft: true
 tags:
 - development
 - git

@@ -46,4 +46,4 @@ git rebase upstream/master
 git push -f origin master
 {% endhighlight %}
 
-You only need to use the `-f` the first time after you've rebased.
+> You only need to use the `-f` the first time after you've rebased.

@@ -10,6 +10,10 @@ description: Resources usefull for everyday work as a developer.
 ### Android Utilities
 * [Methods Count](http://www.methodscount.com/) - Your solution for a perfectly fit APK
 
+### Git for everyday use
+* [19 Tips For Everyday Git Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) by [Alex Kras](http://www.alexkras.com/) - I’ve been using git full time for the past 4 years, and I wanted to share the most practical tips that I’ve learned along the way. Hopefully, it will be useful to somebody out there.
+* [Git Cheat Sheet](http://www.alexkras.com/getting-started-with-git/) by [Alex Kras](http://www.alexkras.com/) - commonly used git commands.
+
 ### Data generation
 * [JSON Generator](http://www.json-generator.com/) ([Beta version](http://beta.json-generator.com/)) - We've all faced the problem of lack of information in our app. All interfaces seem lifeless and empty. Debugging with no data is also not simple. I think that each of us has at least once in their lives created a bunch of files with JSON data, but they were just one object propagated without unique fields. JSON Generator was created in order to help with this. It provides an opportunity generate any data and in any quantity. Edit template, click "Generate" and you're done.
 * [Random User Generator](http://randomuser.me/) - A free API for generating random user data. Like Lorem Ipsum, but for people.

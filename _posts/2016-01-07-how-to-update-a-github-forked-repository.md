@@ -3,7 +3,6 @@ layout: post
 title: "How to update a GitHub forked repository"
 description: "I was looking for updating a forked repository and I found the answer on StackOverflow."
 category: Developer
-draft: true
 tags:
 - development
 - git

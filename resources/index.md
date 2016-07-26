@@ -22,6 +22,7 @@ description: Resources usefull for everyday work as a developer.
 * [json2csharp](http://json2csharp.com/) - Generate c# classes from json.
 * [JSON Utils](http://jsonutils.com/) - Generate code from json for many languages - C#, VB.NET, Javascript, SQL Table, Java, PHP.
 * [The Connection Strings Reference](https://www.connectionstrings.com/) - ConnectionStrings.com helps developers connect software to data. It's a straight to the point reference about connection strings, a [knowledge base](https://www.connectionstrings.com/kb/) of articles and database connectivity content and a host of [Q & A forums](https://www.connectionstrings.com/questions/) where developers help each other in finding solutions.
+* [Json.NET Samples](http://www.newtonsoft.com/json/help/html/Samples.htm) - Over 100 code samples covering Json.NET's most commonly used functionality.
 
 ### Inspiration
 * [UpLabs](http://www.uplabs.com/) - Daily Resources For Designers & Developers, UpLabs curates inspiration, tools & products to build apps & sites.

@@ -24,6 +24,7 @@
  * Themes
  */
 
+
 /*
  * Global resets
  *
@@ -60,21 +61,12 @@ html {
 }
 @media (min-width: 48em) {
   .sidebar {
-    display: block;
     position: fixed;
-    width: 30%;
-    height: 100%;
-    display: table;
-  }
-}
-
-@media (min-width: 64em) {
-  .sidebar {
-    display: block;
-    position: fixed;
-    width: 20rem;
-    height: 100%;
-    display: table;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
   }
 }
 
@@ -87,13 +79,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-size: 2.5rem;
-  font-weight: normal;
-}
-
-.sidebar-about .logo {
-  margin-left: auto;
-  margin-right: auto;
+  font-family: "PT Sans", serif;
+  font-size: 2rem;
 }
 
 /* Sidebar nav */
@@ -120,9 +107,10 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    display: table-cell;
-    vertical-align: middle;
-    position: relative;
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
   }
 }
 
@@ -152,6 +140,7 @@ a.sidebar-nav-item:focus {
     margin-right: 4rem;
   }
 }
+
 
 /*
  * Reverse layout

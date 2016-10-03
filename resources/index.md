@@ -19,6 +19,8 @@ description: Resources usefull for everyday work as a developer.
 * [Random User Generator](http://randomuser.me/) - A free API for generating random user data. Like Lorem Ipsum, but for people.
 * [Mockaroo](https://www.mockaroo.com/) - lets you generate up to 1,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats.
 * [jsonschema2pojo](http://www.jsonschema2pojo.org/) - Generate Plain Old Java Objects from JSON or JSON-Schema.
+* [json2csharp](http://json2csharp.com/) - Generate c# classes from json.
+* [JSON Utils](http://jsonutils.com/) - Generate code from json for many languages - C#, VB.NET, Javascript, SQL Table, Java, PHP.
 
 ### Inspiration
 * [UpLabs](http://www.uplabs.com/) - Daily Resources For Designers & Developers, UpLabs curates inspiration, tools & products to build apps & sites.

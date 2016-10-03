@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+<title>Leanpub Podcast</title>
+<link>https://leanpub.com/blog</link>
+<language>en-us</language>
+<copyright>Copyright Leanpub 2012-2016</copyright>
+<itunes:subtitle>Interviews With Leanub Authors</itunes:subtitle>
+<itunes:author>Leanpub</itunes:author>
+<itunes:summary>Peter Armstrong and Len Epp from Leanpub interview Leanpub authors about their careers, their books, and their experiences with the lean publishing process on Leanpub.</itunes:summary>
+<description>In the Leanpub Podcast we talk to authors about their books and their careers. From startup founders to data scientists to software developers, our authors represent a wide array of interests and experiences. Check it out!</description>
+<itunes:owner>
+<itunes:name>Len Epp</itunes:name>
+<itunes:email>len@leanpub.com</itunes:email>
+</itunes:owner>
+<itunes:image href="https://s3.amazonaws.com/leanpub_podcasts/leanpub-podcast-logo-square-1400.png"/>
+<itunes:category text="Technology">
+<itunes:category text="Gadgets"/>
+</itunes:category>
+<itunes:explicit>No</itunes:explicit>
+
+
+<item>
+<title>Leanpub Podcast #28: Phil Sturgeon</title>
+<itunes:author>Len Epp</itunes:author>
+<itunes:subtitle>An interview with Phil Sturgeon, Author of Build APIs You Won't Hate</itunes:subtitle>
+<itunes:summary>In this interview, Leanpub co-founder Len Epp chats with Phil Sturgeon, author of the Leanpub bestseller Build APIs You Won't Hate. In a wide-ranging discussion, Phil talks about his career, his various projects, and his experience writing and selling a bestselling book.</itunes:summary>
+<itunes:image href="https://s3.amazonaws.com/leanpub_podcasts/leanpub-podcast-logo-square-1400.png"/>
+<enclosure url="https://s3.amazonaws.com/leanpub_podcasts/LPP028_Phil_Sturgeon_2016_01_12.mp3" length="26079727" type="audio/mpeg" />
+<guid>https://s3.amazonaws.com/leanpub_podcasts/LPP028_Phil_Sturgeon_2016_01_12.mp3</guid>
+<pubDate>Thu, 10 March 2016 18:00:00 GMT</pubDate>
+<itunes:duration>54:19</itunes:duration>
+<itunes:keywords>leanpub, programming, ebooks, books</itunes:keywords>
+</item>
+
+
+<item>
+<title>Leanpub Podcast #31: Antonio Leiva</title>
+<itunes:author>Len Epp</itunes:author>
+<itunes:subtitle>An interview with Antonio Leiva, Author of Kotlin for Android Developers</itunes:subtitle>
+<itunes:summary>In this interview, Leanpub co-founder Len Epp chats with Antonio Leiva, author of the Leanpub books Kotlin for Android Developers and 10 consejos para convertirte en un desarrollador experto. Antonio talks about his career, what the scene is like for software developers in Spain, and what it's like to self-publish an in-progress book.</itunes:summary>
+<itunes:image href="https://s3.amazonaws.com/leanpub_podcasts/leanpub-podcast-logo-square-1400.png"/>
+<enclosure url="https://s3.amazonaws.com/leanpub_podcasts/LPP031_Antonio_Leiva_2016_04_11.mp3" length="7830301" type="audio/mpeg" />
+<guid>https://s3.amazonaws.com/leanpub_podcasts/LPP031_Antonio_Leiva_2016_04_11.mp3</guid>
+<pubDate>Fri, 07 June 2016 18:00:00 GMT</pubDate>
+<itunes:duration>16:17</itunes:duration>
+<itunes:keywords>leanpub, programming, software, ebooks, books</itunes:keywords>
+</item>
+
+</channel>
+
+</rss>

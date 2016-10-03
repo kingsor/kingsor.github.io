@@ -3,7 +3,7 @@ layout: post
 title: "Lessons of Good Design"
 description: "What design means to Julie Zhuo"
 category: Developer
-draft: true
+draft: false
 tags:
 - manager
 - design

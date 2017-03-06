@@ -30,7 +30,7 @@ description: Resources usefull for everyday work as a developer.
 * [The Connection Strings Reference](https://www.connectionstrings.com/) - ConnectionStrings.com helps developers connect software to data. It's a straight to the point reference about connection strings, a [knowledge base](https://www.connectionstrings.com/kb/) of articles and database connectivity content and a host of [Q & A forums](https://www.connectionstrings.com/questions/) where developers help each other in finding solutions.
 * [Json.NET Samples](http://www.newtonsoft.com/json/help/html/Samples.htm) - Over 100 code samples covering Json.NET's most commonly used functionality.
 
-### icons
+### Icons
 * [Favic-O-Matic](http://www.favicomatic.com/) - Favic-o-Matic generates favicons, both .ico & .png (even transparent ones!), and the HTML code needed to make your website look awesome on every browser and every device. Give it a try now, it's free!
 
 ### Inspiration

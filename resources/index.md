@@ -4,11 +4,17 @@ title: Resources
 description: Resources usefull for everyday work as a developer.
 ---
 
-### Books
+### Learning
 * [The Busy Coder's Guide to Android Development](https://commonsware.com/Android/) - for Android Studio 1.5, covering the Android SDK through 6.0
+* [CodePath Android Cliffnotes](http://guides.codepath.com/android) - Welcome to the open-source CodePath Android Cliffnotes! Our goal is to become the central crowdsourced resource for complete and up-to-date practical Android developer guides for any topic. 
 
-### Android Utilities
+### Tools
 * [Methods Count](http://www.methodscount.com/) - Your solution for a perfectly fit APK
+* [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/) - A collection of tools to easily generate assets such as launcher icons for your Android app. Created by [Roman Nurik](https://twitter.com/romannurik). Source on [GitHub](https://github.com/romannurik/AndroidAssetStudio).
+	* [Launcher icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html) - Generate launcher and store listing icons for your app.
+	* [Notification icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-notification.html) - Generate notification icons for your app. These show up in the system status bar and notification shade.
+	* [Action bar/tab icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-actionbar.html) - Generate icons for the app bar or tab bars.
+* [Droid@Screen](http://droid-at-screen.org/) - With Droid@Screen you can easily show the screen of an Android device on a computer/laptop (PC, Mac, Linux, ...) and then project the desktop using a LCD-projector. Droid@Screen is used for training/teaching and demonstration purposes. Here are the [installation instructions](http://droid-at-screen.org/installation.html)
 
 ### Git for everyday use
 * [19 Tips For Everyday Git Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) by [Alex Kras](http://www.alexkras.com/) - I’ve been using git full time for the past 4 years, and I wanted to share the most practical tips that I’ve learned along the way. Hopefully, it will be useful to somebody out there.
@@ -23,6 +29,9 @@ description: Resources usefull for everyday work as a developer.
 * [JSON Utils](http://jsonutils.com/) - Generate code from json for many languages - C#, VB.NET, Javascript, SQL Table, Java, PHP.
 * [The Connection Strings Reference](https://www.connectionstrings.com/) - ConnectionStrings.com helps developers connect software to data. It's a straight to the point reference about connection strings, a [knowledge base](https://www.connectionstrings.com/kb/) of articles and database connectivity content and a host of [Q & A forums](https://www.connectionstrings.com/questions/) where developers help each other in finding solutions.
 * [Json.NET Samples](http://www.newtonsoft.com/json/help/html/Samples.htm) - Over 100 code samples covering Json.NET's most commonly used functionality.
+
+### Icons
+* [Favic-O-Matic](http://www.favicomatic.com/) - Favic-o-Matic generates favicons, both .ico & .png (even transparent ones!), and the HTML code needed to make your website look awesome on every browser and every device. Give it a try now, it's free!
 
 ### Inspiration
 * [UpLabs](http://www.uplabs.com/) - Daily Resources For Designers & Developers, UpLabs curates inspiration, tools & products to build apps & sites.

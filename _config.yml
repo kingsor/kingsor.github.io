@@ -1,6 +1,5 @@
 # Configurations
 markdown: kramdown
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
 highlighter: rouge
 
 # Permalinks
@@ -10,6 +9,7 @@ permalink:        /:year/:month/:day/:title/
 title:            'One inch at a time'
 description:      'My journey in software development and beyond'
 baseurl:          /
+logo:             /images/me.jpg
 
 
 # Author Details
@@ -34,5 +34,11 @@ paginate: 5
 
 destination: ./_site
 
-# Custom vars
-version:          0.8
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
+  syntax_highlighter: rouge

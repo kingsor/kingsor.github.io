@@ -1,16 +1,17 @@
-<section class="sidebar">
+<div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h2>
-        <a href="/">{{ site.title }}</a>
-      </h2>
+      <a href="{{ site.baseurl }}" title="Link to homepage for {{ site.title }}"><img src="{{ site.logo }}" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo" /></a>
+      <h1>
+        <a href="{{ site.baseurl }}">{ site.title }}</a>
+      </h1>
       <p class="lead">{{ site.description }}</p>
     </div>
 
     <nav class="sidebar-nav">
-      <span class="sidebar-nav-item"><a href="/archive/">Archive</a></span>
-      <span class="sidebar-nav-item"><a href="/resources/">Resources</a></span>
-      <span class="sidebar-nav-item"><a href="/about/">About</a></span>
+      <a class="sidebar-nav-item" href="/archive/">Archive</a>
+      <a class="sidebar-nav-item" href="/resources/">Resources</a>
+      <a class="sidebar-nav-item" href="/about/">About</a>
     </nav>
 
     <nav class="sidebar-social">
@@ -22,14 +23,7 @@
               <span class="label">Twitter</span>
             </a>
           </li>
-          <!-- Google+ -->
-          <li class="social-item gplus">
-            <a href="{{ site.gplus }}" title="me on Google+" target="_blank">
-              <i class='icon fi-social-google-plus'></i>
-              <span class="label">Google+</span>
-            </a>
-          </li>
-          <!-- GitHub -->
+         <!-- GitHub -->
           <li class="social-item github">
             <a href="{{ site.github }}" title="me on GitHub" target="_blank">
               <i class='icon fi-social-github'></i>
@@ -53,4 +47,4 @@
         </ul>
     </nav>
   </div>
-</section>
+</div>

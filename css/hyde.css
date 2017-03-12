@@ -258,12 +258,24 @@ a.sidebar-nav-item:focus {
 .lead {
   font-size: 0.9rem;
 }
+.icon:before {
+  font-family: "foundation-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit; 
+}
 .navigation {
   display: inline-block;
   position: relative;
   margin: 0;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none; 
+}
 .sidebar-social {
   margin-bottom: 1rem; }
   .sidebar-social a {
@@ -295,3 +307,30 @@ a.sidebar-nav-item:focus {
   border-radius: 50%;
   border: 3px solid #FFF;
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3); }
+.twitter a:hover {
+  color: #64B5F6;
+  border-color: #64B5F6; }
+
+.gplus a:hover {
+  color: #E57373;
+  border-color: #E57373; }
+
+.github a:hover {
+  color: #90A4AE;
+  border-color: #90A4AE; }
+
+.stackoverflow a:hover {
+  color: #FFD54F;
+  border-color: #FFD54F; }
+
+.foursquare a:hover {
+  color: #7986CB;
+  border-color: #7986CB; }
+
+.linkedin a:hover {
+  color: #64B5F6;
+  border-color: #64B5F6; }
+
+.mail a:hover {
+  color: #4DB6AC;
+  border-color: #4DB6AC; }

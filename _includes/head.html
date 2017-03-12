@@ -1,14 +1,16 @@
 <head>
-  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
   <title>
     {% if page.title != "Home" %}
       {{ page.title }} &ndash;
     {% endif %}
     {{ site.title }}
   </title>
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
   <meta name="author" content="{{ site.author }}" />
   {% if page.description %}
@@ -17,9 +19,6 @@
   <meta name="description" content="{{ site.description }}">
   {% endif %}
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="{{ site.title }}">
   {% if page.title == "Home" %}
@@ -46,17 +45,25 @@
   <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+  
     
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}css/site.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}css/hyde.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}css/foundation-icons.css">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Karla|Roboto+Mono|Raleway:700">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="128x128" href="/images/favicon-128.png">
   <link rel="shortcut icon" href="/images/favicon-16.ico">
 
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <!-- 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+   -->
+  
   
 </head>

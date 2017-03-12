@@ -255,6 +255,42 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+.lead {
+  font-size: 0.9rem;
+}
+.navigation {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+.sidebar-social {
+  margin-bottom: 1rem; }
+  .sidebar-social a {
+      width: 2em;
+      height: 2em; }
+    .sidebar-social a .label {
+      display: none; }
+    .sidebar-social a .icon {
+      display: block;
+      font-size: 1.34em; }
+.social-item {
+  display: inline-block;
+  margin: 1px;
+ }
+.social-item a {
+  display: block;
+  position: relative;
+  border: 1px solid #BBB;
+  border-radius: 50%;
+  font-weight: bold;
+  text-shadow: none;
+  color: #BBB;
+  -webkit-font-smoothing: antialiased; }
+  .navigation__item a:hover {
+    color: #FFF;
+    border-color: #FFF;
+ }
 .logo {
   border-radius: 50%;
   border: 3px solid #FFF;

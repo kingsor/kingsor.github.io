@@ -8,9 +8,9 @@ title: "Home"
     {% for post in paginator.posts %}
         {% unless post.draft %}
         <div class="post">
-            <h2 class="post-title">
+            <h3 class="post-title">
                 <a href="{{ post.url }}">{{ post.title }}</a>
-            </h2>
+            </h3>
             <span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
             {{ post.description }}
         </div>

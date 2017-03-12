@@ -2,19 +2,22 @@
 layout: default
 ---
 
-<div class="post">
-    <h2 class="post-title">{{ page.title }}</h2>
-    <span class="post-date"><i class="fi-calendar"></i>&nbsp;{{ page.date | date: "%b %e, %Y" }}</span>
-    <span class="post-date">
-      <i class="fi-price-tag"></i>&nbsp;
-      {% if page.tags == null %}
-        Not tagged
-      {% else %}
-        {% for tag in page.tags %}
-          <a href="/tags#{{ tag | slugify }}-ref">{{ tag | capitalize}}</a>
-        {% endfor %}
-      {% endif %}
-    </span>
-    {{ content }}
+<div class="container">
+  <div class="content">
+    <div class="post">
+      <h3 class="post-title">{{ page.title }}</h3>
+      <span class="post-date"><i class="fi-calendar"></i>&nbsp;{{ page.date | date: "%b %e, %Y" }}</span>
+      <span class="post-date">
+        <i class="fi-price-tag"></i>&nbsp;
+        {% if page.tags == null %}
+          Not tagged
+        {% else %}
+          {% for tag in page.tags %}
+            <a href="/tags#{{ tag | slugify }}-ref">{{ tag | capitalize}}</a>
+          {% endfor %}
+        {% endif %}
+      </span>
+      {{ content }}
+    </div>
+  </div>
 </div>
-

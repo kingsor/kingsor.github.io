@@ -57,10 +57,15 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background: -webkit-linear-gradient(#009688, #00695C);
-  background: -o-linear-gradient(#009688, #00695C);
-  background: -moz-linear-gradient(#009688, #00695C);
-  background: linear-gradient(#009688, #00695C);
+  /*
+  background: -webkit-linear-gradient(#353865, #00695C);
+  background: -o-linear-gradient(#353865, #00695C);
+  background: -moz-linear-gradient(#353865, #00695C);
+  background: linear-gradient(#353865, #00695C);
+  */
+  background-image: url("/images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+  background-size: 128px 128px, auto;
+	background-color: #353865;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -115,7 +120,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-sticky {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
     position: relative;
   }
 }

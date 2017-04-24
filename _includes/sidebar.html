@@ -1,52 +1,54 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <a href="{{ site.baseurl }}" title="Link to homepage for {{ site.title }}"><img src="{{ site.logo }}" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo" /></a>
+    
+    <div class="sidebar-about sidebar-title">
+      <a href="{{ site.baseurl }}" title="Link to homepage for {{ site.title }}">
+        <img src="{{ site.logo }}" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo" />
+      </a>
       <h2>
-        <a href="{{ site.baseurl }}">{{ site.title }}</a>
+        <a class="sidebar-link" href="{{ site.baseurl }}">{{ site.title }}</a>
       </h2>
-      <p class="lead">{{ site.description }}</p>
+      <p class="sidebar-subtitle">{{ site.description }}</p>
     </div>
 
-    <nav class="sidebar-nav">
+    <div class="sidebar-nav">
       <a class="sidebar-nav-item" href="/archive/">Archive</a>
       <a class="sidebar-nav-item" href="/resources/">Resources</a>
       <!--
       <a class="sidebar-nav-item" href="/about/">About</a>
       -->
-    </nav>
+    </div>
 
-    <nav class="sidebar-social">
-        <ul class="navigation">
-          <!-- Twitter -->
-          <li class="social-item twitter">
-            <a href="{{ site.twitter }}" title="me on Twitter" target="_blank">
-              <i class='icon fi-social-twitter'></i>
-              <span class="label">Twitter</span>
-            </a>
-          </li>
-         <!-- GitHub -->
-          <li class="social-item github">
-            <a href="{{ site.github }}" title="me on GitHub" target="_blank">
-              <i class='icon fi-social-github'></i>
-              <span class="label">GitHub</span>
-            </a>
-          </li>
-          <!-- LinkedIn -->
-          <li class="social-item linkedin">
-            <a href="{{site.linkedin}}" title="me on LinkedIn" target="_blank">
-              <i class='icon fi-social-linkedin'></i>
-              <span class="label">LinkedIn</span>
-            </a>
-          </li>
-          <!-- Medium -->
-          <li class="social-item medium">
-            <a href="{{site.medium}}" title="me on Medium" target="_blank">
-              <i class='icon fi-social-medium'></i>
-              <span class="label">LinkedIn</span>
-            </a>
-          </li>
-        </ul>
-    </nav>
+    <ul class="navigation">
+      <!-- Twitter -->
+      <li class="social-item twitter">
+        <a href="{{ site.twitter }}" title="me on Twitter" target="_blank">
+          <i class='icon fi-social-twitter'></i>
+          <span class="label">Twitter</span>
+        </a>
+      </li>
+      <!-- GitHub -->
+      <li class="social-item github">
+        <a href="{{ site.github }}" title="me on GitHub" target="_blank">
+          <i class='icon fi-social-github'></i>
+          <span class="label">GitHub</span>
+        </a>
+      </li>
+      <!-- LinkedIn -->
+      <li class="social-item linkedin">
+        <a href="{{site.linkedin}}" title="me on LinkedIn" target="_blank">
+          <i class='icon fi-social-linkedin'></i>
+          <span class="label">LinkedIn</span>
+        </a>
+      </li>
+      <!-- Medium -->
+      <li class="social-item medium">
+        <a href="{{site.medium}}" title="me on Medium" target="_blank">
+          <i class='icon fi-social-medium'></i>
+          <span class="label">LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+
   </div>
 </div>

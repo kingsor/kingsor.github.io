@@ -8,7 +8,7 @@ tags:
 - app
 - open source
 - learning
-- developer
+- development
 - mobile
 ---
 

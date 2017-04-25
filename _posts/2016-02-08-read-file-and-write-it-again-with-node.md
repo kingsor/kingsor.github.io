@@ -5,8 +5,8 @@ description: "I've found a nice solution for reading a file, be able to perform 
 category: Developer
 tags:
 - development
-- git
-- github
+- javascrip
+- node.js
 ---
 
 I've found an interesting [answer](http://stackoverflow.com/a/17645814) to a question on Stack Overflow about how to read a file, be able to perform other operations with that information and finally write it the another file.

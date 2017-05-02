@@ -17,7 +17,7 @@ I quote it as a note to self.
 
 > In your local clone of your forked repository, you can add the original GitHub repository as a "remote". ("Remotes" are like nicknames for the URLs of repositories - `origin` is one, for example.) Then you can fetch all the branches from that upstream repository, and rebase your work to continue working on the upstream version. In terms of commands that might look like:
 
-{% highlight console %}
+{% highlight bash %}
 # Add the remote, call it "upstream":
 
 git remote add upstream https://github.com/whoever/whatever.git
@@ -42,7 +42,7 @@ git rebase upstream/master
 
 > *Update*: If you've rebased your branch onto `upstream/master` you may need to force the push in order to push it to your own forked repository on GitHub. You'd do that with:
 
-{% highlight console %}
+{% highlight bash %}
 git push -f origin master
 {% endhighlight %}
 

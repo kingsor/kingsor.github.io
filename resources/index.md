@@ -4,10 +4,6 @@ title: Resources
 description: Resources usefull for everyday work as a developer.
 ---
 
-### Learning
-* [The Busy Coder's Guide to Android Development](https://commonsware.com/Android/) - for Android Studio 1.5, covering the Android SDK through 6.0
-* [CodePath Android Cliffnotes](http://guides.codepath.com/android) - Welcome to the open-source CodePath Android Cliffnotes! Our goal is to become the central crowdsourced resource for complete and up-to-date practical Android developer guides for any topic. 
-
 ### Tools
 * [Methods Count](http://www.methodscount.com/) - Your solution for a perfectly fit APK
 * [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/) - A collection of tools to easily generate assets such as launcher icons for your Android app. Created by [Roman Nurik](https://twitter.com/romannurik). Source on [GitHub](https://github.com/romannurik/AndroidAssetStudio).
@@ -15,6 +11,7 @@ description: Resources usefull for everyday work as a developer.
 	* [Notification icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-notification.html) - Generate notification icons for your app. These show up in the system status bar and notification shade.
 	* [Action bar/tab icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-actionbar.html) - Generate icons for the app bar or tab bars.
 * [Droid@Screen](http://droid-at-screen.org/) - With Droid@Screen you can easily show the screen of an Android device on a computer/laptop (PC, Mac, Linux, ...) and then project the desktop using a LCD-projector. Droid@Screen is used for training/teaching and demonstration purposes. Here are the [installation instructions](http://droid-at-screen.org/installation.html)
+
 
 ### Git for everyday use
 * [19 Tips For Everyday Git Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) by [Alex Kras](http://www.alexkras.com/) - I’ve been using git full time for the past 4 years, and I wanted to share the most practical tips that I’ve learned along the way. Hopefully, it will be useful to somebody out there.
@@ -33,6 +30,18 @@ description: Resources usefull for everyday work as a developer.
 ### Icons
 * [Favic-O-Matic](http://www.favicomatic.com/) - Favic-o-Matic generates favicons, both .ico & .png (even transparent ones!), and the HTML code needed to make your website look awesome on every browser and every device. Give it a try now, it's free!
 
+### DroidCon Videos
+* [Droidcon Italy 2017](https://www.youtube.com/playlist?list=PL4ebO4PmeAi4MgpaaK9Hej0P6ooIhmfms) (6/7 April 2017)
+* [Droidcon NYC 2016](https://www.youtube.com/playlist?list=PLnVy79PaFHMXJha06t6pWfkYcATV4oPvC) (29/30 September 2016)
+* [Droidcon Zagreb 2016](https://www.youtube.com/channel/UCgie3cPslUv7rrpGGWoWiSA) (28/29 April 2016)
+* [Droidcon Italy 2015](https://www.youtube.com/playlist?list=PL4ebO4PmeAi6s0zJoLuydIXUIHxrG8ohS) (9/10 April 2015)
+* [Droidcon Berlin 2015](https://www.youtube.com/playlist?list=PL9Pfzam3fFdeURdCGf1vlBrnMn3MxjvRS) (3/5 June 2015)
+* [Droidcon NYC 2015](https://www.youtube.com/playlist?list=PLnVy79PaFHMUqqvwbjyKJZv1N8rzHOCBi) (27/28 August 2015)
+
+### Learning
+* [The Busy Coder's Guide to Android Development](https://commonsware.com/Android/) - for Android Studio 1.5, covering the Android SDK through 6.0
+* [CodePath Android Cliffnotes](http://guides.codepath.com/android) - Welcome to the open-source CodePath Android Cliffnotes! Our goal is to become the central crowdsourced resource for complete and up-to-date practical Android developer guides for any topic. 
+
 ### Inspiration
 * [UpLabs](http://www.uplabs.com/) - Daily Resources For Designers & Developers, UpLabs curates inspiration, tools & products to build apps & sites.
 * [MaterialUp](http://www.materialup.com/) - MaterialUp curates the best of Material Design inspiration, tools and freebies. Daily.
@@ -46,11 +55,6 @@ description: Resources usefull for everyday work as a developer.
 * [#androiduiux](http://androiduiux.com/)
 * [Android UI Patterns](http://www.androiduipatterns.com/)
 * [Android Niceties](http://androidniceties.tumblr.com/)
-
-### DroidCon Videos
-* [Droidcon Italy 2015](https://www.youtube.com/playlist?list=PL4ebO4PmeAi6s0zJoLuydIXUIHxrG8ohS) (9/10 April 2015)
-* [Droidcon Berlin 2015](https://www.youtube.com/playlist?list=PL9Pfzam3fFdeURdCGf1vlBrnMn3MxjvRS) (3/5 June 2015)
-* [Droidcon NYC 2015](https://www.youtube.com/playlist?list=PLnVy79PaFHMUqqvwbjyKJZv1N8rzHOCBi) (27/28 August 2015)
 
 ### Misc
 * [Twitter Card validator](https://cards-dev.twitter.com/validator)

@@ -59,6 +59,3 @@ description: Resources usefull for everyday work as a developer.
 ### Misc
 * [Twitter Card validator](https://cards-dev.twitter.com/validator)
 
-### Virtual Machines
-* [Bitnami Applications](https://bitnami.com/stacks) - Bitnami is an app store for server software. Install your favorite applications in your own servers or [run them in the cloud](https://bitnami.com/cloud/). Very interesting the [Infrastructure Stacks](https://bitnami.com/stacks/infrastructure).
-* [Windows Machines for Browser Testing](https://dev.modern.ie/tools/vms/windows/) - Test Microsoft Edge and versions of IE6 through IE11 using free virtual machines you download and manage locally. There are machines for Virtual Box, Vagrant, HyperV, VPC and VMware.

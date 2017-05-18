@@ -13,7 +13,7 @@ tags:
 - github
 ---
 
-I deployed [ShortUrl](https://github.com/kingsor/ShortURL) to [AppHarbor](https://appharbor.com/).
+I deployed [ShortUrl](http://shortr.apphb.com/) to [AppHarbor](https://appharbor.com/).
 
 [ShortUrl](https://github.com/kingsor/ShortURL) is a simple side project I play with in order to try some stuff for future use in another side project.
 

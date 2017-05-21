@@ -30,8 +30,9 @@ description: Resources usefull for everyday work as a developer.
 ### Icons
 * [Favic-O-Matic](http://www.favicomatic.com/) - Favic-o-Matic generates favicons, both .ico & .png (even transparent ones!), and the HTML code needed to make your website look awesome on every browser and every device. Give it a try now, it's free!
 
-### DroidCon Videos
-* [Droidcon Italy 2017](https://www.youtube.com/playlist?list=PL4ebO4PmeAi4MgpaaK9Hej0P6ooIhmfms) (6/7 April 2017)
+### Videos
+* [Google I/O 2017 - All Sessions](http://shortr.apphb.com/7WgVH)
+* [Droidcon Italy 2017](http://shortr.apphb.com/uh3wz) (6/7 April 2017)
 * [Droidcon NYC 2016](https://www.youtube.com/playlist?list=PLnVy79PaFHMXJha06t6pWfkYcATV4oPvC) (29/30 September 2016)
 * [Droidcon Zagreb 2016](https://www.youtube.com/channel/UCgie3cPslUv7rrpGGWoWiSA) (28/29 April 2016)
 * [Droidcon Italy 2015](https://www.youtube.com/playlist?list=PL4ebO4PmeAi6s0zJoLuydIXUIHxrG8ohS) (9/10 April 2015)

@@ -17,6 +17,14 @@ description: Resources usefull for everyday work as a developer.
 * [19 Tips For Everyday Git Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) by [Alex Kras](http://www.alexkras.com/) - I’ve been using git full time for the past 4 years, and I wanted to share the most practical tips that I’ve learned along the way. Hopefully, it will be useful to somebody out there.
 * [Git Cheat Sheet](http://www.alexkras.com/getting-started-with-git/) by [Alex Kras](http://www.alexkras.com/) - commonly used git commands.
 
+
+### HTTP and REST Server prototype
+* [http-server](https://www.npmjs.com/package/http-server) - `http-server` is a simple, zero-configuration command-line http server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
+* [JSON Server](https://github.com/typicode/json-server) - Get a full fake REST API with zero coding in less than 30 seconds (seriously).
+* [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping powered by [JSON Server](https://github.com/typicode/json-server) and [lowdb](https://github.com/typicode/lowdb)
+* [Harp](https://harpjs.com/) - The static web server with built-in preprocessing. Harp serves Jade, Markdown, EJS, CoffeeScript, Sass, LESS and Stylus as HTML, CSS & JavaScript—no configuration necessary.
+
+
 ### Data related
 * [JSON Generator](http://www.json-generator.com/) ([Beta version](http://beta.json-generator.com/)) - We've all faced the problem of lack of information in our app. All interfaces seem lifeless and empty. Debugging with no data is also not simple. I think that each of us has at least once in their lives created a bunch of files with JSON data, but they were just one object propagated without unique fields. JSON Generator was created in order to help with this. It provides an opportunity generate any data and in any quantity. Edit template, click "Generate" and you're done.
 * [Random User Generator](http://randomuser.me/) - A free API for generating random user data. Like Lorem Ipsum, but for people.

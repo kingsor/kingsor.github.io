@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Started with Spark Framework"
-description: "Deploy a simple side project on AppHarbor with some troubles."
+description: "Setting up a sample project using Spark Framework with Maven"
 category: Developer
 draft: false
 tags:
@@ -13,7 +13,7 @@ tags:
 - github
 ---
 
-Starting from [Spark Framework Tutorials](https://sparktutorials.github.io/img/logo.svg), my first step was to follow [Setting up Spark with Maven](https://sparktutorials.github.io/2015/04/02/setting-up-a-spark-project-with-maven.html).
+Starting from [Spark Framework Tutorials](https://sparktutorials.github.io/), my first step was to follow [Setting up Spark with Maven](https://sparktutorials.github.io/2015/04/02/setting-up-a-spark-project-with-maven.html).
 
 I use Eclipse as my favorite IDE and when I was at the end of the tutorial I run the app.
 

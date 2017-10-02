@@ -8,7 +8,6 @@ permalink:        /:year/:month/:day/:title/
 # Setup
 title:            'One inch at a time'
 description:      'My journey in software development and beyond'
-baseurl:          /
 logo:             /images/me.jpg
 
 

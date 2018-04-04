@@ -18,7 +18,7 @@ So I exported the oracle docker image (that I use for work), removed the docker-
 
 Then after reading this post [Running MongoDB as a Docker container](https://www.thachmai.info/2015/04/30/running-mongodb-container/), I was able to start a MongoDB instance running the following command:
 
-```
+```bash
 docker run --name mongodb -d -p 27017:27017 mongo
 ```
 

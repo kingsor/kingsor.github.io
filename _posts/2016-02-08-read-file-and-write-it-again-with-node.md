@@ -13,7 +13,7 @@ I've found an interesting [answer](http://stackoverflow.com/a/17645814) to a que
 
 This is the first solution proposed:
 
-{% highlight javascript %}
+```javascript
 function copyData(savPath, srcPath) {
   fs.readFile(srcPath, 'utf8', function (err, data) {
     if (err) throw err;
@@ -24,11 +24,11 @@ function copyData(savPath, srcPath) {
       });
   });
 }
-{% endhighlight %}
+```
 
 But the solutions that I prefer is that one with two separate methods:
 
-{% highlight javascript %}
+```javascript
 function getFileContent(srcPath, callback) { 
   fs.readFile(srcPath, 'utf8', function (err, data) {
     if (err) throw err;
@@ -45,6 +45,6 @@ function copyFileContent(savPath, srcPath) {
       });
   });
 }
-{% endhighlight %}
+```
 
 Here is a post about [Reading and Writing File in Node.js](http://www.javabeat.net/nodejs-read-write-file/) that explain how to use *fs* module for file I/O operations.

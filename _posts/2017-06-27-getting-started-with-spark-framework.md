@@ -19,7 +19,7 @@ I use Eclipse as my favorite IDE and when I was at the end of the tutorial I run
 
 This is the first error I came across:
 
-```console
+```bash
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
@@ -42,7 +42,7 @@ that I solved thanks to this [Stackoverflow answer](https://stackoverflow.com/a/
 
 Then there was this warning:
 
-```console
+```bash
 log4j:WARN No appenders could be found for logger (dao.hsqlmanager).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.

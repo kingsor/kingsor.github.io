@@ -12,23 +12,17 @@ tags:
 
 This post is a note to self about my first steps in the path for learning to use Docker. I started deploying an asp.net core web api in a container.
 
-* prerequisites
-* asp.net core sample web api
-* building a docker image through a dockerfile
-* pushing the web api app docker image in the docker hub
-* pulling the generated docker image in a different environment (heroku, aws, google cloud, digital ocean, where else?)
-
-
-
 
 ## Prerequisites
-* Docker ([Windows 10 Pro](https://docs.docker.com/docker-for-windows/install/), [Windows 10 Home - Docker Toolbox](https://docs.docker.com/toolbox/overview/) [Mac](https://docs.docker.com/docker-for-mac/install/))
+* Docker ([Windows](https://docs.docker.com/docker-for-windows/install/), [Mac](https://docs.docker.com/docker-for-mac/install/), [Docker Toolbox](https://docs.docker.com/toolbox/overview/))
 * ASP.NET Core 2.0 SDK ([Here](https://www.microsoft.com/net/download/windows))
 
 ## Building a web api with asp.net 2.0
 I created a simple todo list web api following this tutorial: [Create a Web API with ASP.NET Core and Visual Studio for Windows](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.1).
 
-In order to be able to test the web api without any specific client I added the [Swagger](https://swagger.io/) support to the project using [NSwag](https://github.com/RSuter/NSwag) package. I accomplished this task following this tutorial: [Get started with NSwag and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-2.1).
+In order to be able to test the web api without any specific client I added the [Swagger](https://swagger.io/) support to the project using [NSwag](https://github.com/RSuter/NSwag) package.
+
+I accomplished this task following this tutorial: [Get started with NSwag and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-2.1).
 
 The NSwag project provides tools to generate Swagger specifications from existing ASP.NET Web API controllers and provide an embedded [Swagger UI](https://swagger.io/swagger-ui/) to interact with the web api. 
 
@@ -133,7 +127,7 @@ docker run -d -p 8080:80 --name TodoCoreWebApi neetpiq/todo-core-webapi:1.2
 ## Notes
 
 ### Windows Users
-If you are using boot2docker on Windows ([Docker Toolbox](https://docs.docker.com/toolbox/overview/), please note the following:
+If you are using boot2docker on Windows ([Docker Toolbox](https://docs.docker.com/toolbox/overview/)), please note the following:
 
 The Linux VM in the boot2docker VirtualBox maps the c/Users directory in the VM instance to the C:\Users folder in Windows. So be sure your source code for your worker is in a folder under C:\Users, then cd to that folder in the context of the VM (in Boot2Docker terminal) and run it from there.
 

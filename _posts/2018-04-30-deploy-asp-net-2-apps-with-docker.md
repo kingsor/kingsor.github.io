@@ -10,6 +10,8 @@ tags:
 - web-api
 ---
 
+*Published also at [The DEV Community](https://dev.to/kingsor/deploy-aspnet-core-2-apps-withdocker-598n) on May 3rd, 2018*
+
 This post is a note to self about my first steps in the path for learning to use Docker. I started deploying an asp.net core web api in a container.
 
 
@@ -61,7 +63,7 @@ To understand the ins and out of building a Docker image I followed this tutoria
 
 ## Building the Docker image
 
-In the root of the project (where is located the Dockerfile) run this command:
+In the root of the project (where the Dockerfile is located) run this command:
 
 ```bash
 
@@ -69,7 +71,7 @@ docker build -t todo-core-webapi .
 
 ```
 
-After the build process is completed you can run you image with this command:
+After the build process is completed you can run the image with this command:
 
 ```bash
 
@@ -139,5 +141,3 @@ The Linux VM in the boot2docker VirtualBox maps the c/Users directory in the VM 
 * [ASP.NET Core Docker Production Sample](https://github.com/dotnet/dotnet-docker/tree/master/samples/aspnetapp)
 * [Deploy asp.net core 2.0 apps on Heroku](https://blog.devcenter.co/deploy-asp-net-core-2-0-apps-on-heroku-eea8efd918b6)
 * [Pushing a repository image to Docker Hub](https://docs.docker.com/docker-hub/repos/#pushing-a-repository-image-to-docker-hub)
-
-

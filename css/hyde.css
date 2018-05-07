@@ -344,3 +344,15 @@ a.sidebar-nav-item:focus {
 .mail a:hover {
   color: #4DB6AC;
   border-color: #4DB6AC; }
+
+.dev a:hover {
+  color: #000000;
+  border-color: #000000; }
+
+.dev-badge {
+  height: 30px;
+    width: 30px;
+    background-color: #cccccc;
+    background-image: url("https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg");
+    background-size: cover;
+}

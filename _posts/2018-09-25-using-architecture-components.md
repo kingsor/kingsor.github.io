@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Architecture Components"
-description: "This post is a note to self about my first steps in the path for learning to use Docker. I started deploying an asp.net core web api in a container."
+description: "This post is a note to self about a talk by Phil Shadlyn on Writing an App with Architecture Components"
 tags:
 - developer
 - android
@@ -20,4 +20,4 @@ After I did watch this interview, I was very curious about [Phil Shadlyn](https:
 
 > I developed an app from scratch using all of the new Architecture Components – ViewModels and an MVVM architecture, Room to persist all the local data, and LiveData objects to easily and safely update the UI with automatic lifecycle handling.  Join us as we discuss in detail what it’s like to use these new Architecture Components in a real world situation – we’ll talk about the problems they solved, the problems they created, and whether or not they’re the right choice for your next project.
 
-{%youtube ARk2rPKR_zg %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ARk2rPKR_zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

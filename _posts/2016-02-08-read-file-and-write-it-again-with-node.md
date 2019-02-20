@@ -5,7 +5,7 @@ description: "I've found a nice solution for reading a file, be able to perform 
 category: Developer
 tags:
 - development
-- javascrip
+- javascript
 - node.js
 ---
 

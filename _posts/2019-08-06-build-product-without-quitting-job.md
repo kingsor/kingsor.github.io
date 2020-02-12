@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Build a product without quitting your day job"
-description: "Jason Fried let us know Shape Up is available"
+description: "My quotes from Aytekin Tank post on IndieHackers"
 tags:
 - developer
 - product development

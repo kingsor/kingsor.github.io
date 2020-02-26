@@ -29,4 +29,4 @@ Then I found these comments in the [order](https://datatables.net/reference/opti
 > This is true if you have enabled state saving ([stateSave](https://datatables.net/reference/option/stateSave) option). With state saving enabled, the saved state will take priority over the initialisation options (since otherwise the save state wouldn't be restored!). Important point though - thanks for making it. (by [allan](https://datatables.net/forums/profile/allan))
 > 
 
-And after clearing the browser's local storage, the `order` option was working fine.
+The table I was adding the order option to had also the `stateSave` option. So, after clearing the browser's local storage, the `order` option started working fine.

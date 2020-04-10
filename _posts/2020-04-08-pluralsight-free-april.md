@@ -14,7 +14,7 @@ Pluralsight's CEO Aaron Skonnard shares why they're making all 7,000+ expert-led
 
 **Stay home, stay safe, skill up!**
 
-http://plrsig.ht/FreeApril
+[http://plrsig.ht/FreeApril](http://plrsig.ht/FreeApril)
 
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Perils of Shiny New Objects"
-description: ""Beware of shiny new objects" advice by Mark Suster"
+description: "'Beware of shiny new objects' advice by Mark Suster"
 tags:
 - developer
 - product development

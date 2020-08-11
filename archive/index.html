@@ -17,7 +17,11 @@ description: Page with links to all articles of the blog
         {% endif %}
       {% endunless %}
       <li class="alink"><a href="{{ post.url }}" class="green-link">{{ post.title }}</a>
-        ({{ post.date | date: "%B %e" }})</li>
+        ({{ post.date | date: "%B %e" }})
+        {% if post.tags contains 'italang' %}
+          <strong> (ita)</strong>
+        {% endif %}
+      </li>
     {% endunless %}
   {% endfor %}
 </ul>

@@ -6,13 +6,15 @@ title: "Home"
 <div class="posts">
 {% for post in paginator.posts %}
     {% unless post.draft %}
-    <div class="post">
-        <h2 class="post-title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
-        {{ post.description }}
-    </div>
+        {% unless post.tags.italang %}
+        <div class="post">
+            <h2 class="post-title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
+            {{ post.description }}
+        </div>
+        {% endunless %}
     {% endunless %}
 {% endfor %}
 </div>

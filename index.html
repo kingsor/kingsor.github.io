@@ -6,7 +6,7 @@ title: "Home"
 <div class="posts">
 {% for post in paginator.posts %}
     {% unless post.draft %}
-        {% unless post.tags.italang %}
+        {% unless post.tags contains 'italang' %}
         <div class="post">
             <h2 class="post-title">
                 <a href="{{ post.url }}">{{ post.title }}</a>

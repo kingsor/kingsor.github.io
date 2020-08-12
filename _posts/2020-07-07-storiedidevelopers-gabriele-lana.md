@@ -25,9 +25,10 @@ Di lui [Alberto Brandolini](https://twitter.com/ziobrando) dice:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7i7Qdeo8MWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Bellissima intervista a Gabriele Lana nella quale si racconta brevemente e ribadisce concetti sempre utili di quella che dovrebbe essere la professione del programmatore.
+Bellissima intervista nella quale Gabriele Lana si racconta brevemente e ribadisce concetti sempre utili di quella che dovrebbe essere la professione del programmatore.
 
-A proposito della professione del programmatore, di seguito un suo bellissimo talk che ho potuto seguire di persona, tenuto ad una serata organizzata da [Crafted Software](https://www.meetup.com/Crafted-Software/).
+A proposito della professione del programmatore, di seguito un suo bellissimo talk che ho potuto seguire di persona, tenuto a Milano ad una serata organizzata da [Crafted Software](https://www.meetup.com/Crafted-Software/) presso lo spazio [Venini42](https://venini42.it/) sede di [Mikamai](https://www.mikamai.com/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xM03p6A8ppU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Buona visione :-)

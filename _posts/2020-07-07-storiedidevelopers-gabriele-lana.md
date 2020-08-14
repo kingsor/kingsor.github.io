@@ -4,7 +4,7 @@ title: "#storiedidevelopers - Intervista a Gabriele Lana"
 description: "Intervista a Gabriele Lana by Simone Torrisi di Fullstackish!"
 tags:
 - italang
-- storiedidevelopers
+- storie-di-developers
 - developer
 ---
 

@@ -7,7 +7,7 @@ draft: false
 tags:
 - development
 - side-project
-- mondodb
+- mongodb
 - docker
 - github
 ---

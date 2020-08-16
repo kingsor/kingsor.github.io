@@ -9,7 +9,7 @@ tags:
 - note-to-self
 ---
 
-[Enrica Crivello](https://enricacrivello.it/) è una persona che seguo da circa un anno o poco più. Mi piace quello che dice e come lo dice, mi piacciono i suoi video, mi piace il prodotto che cura con Ivan Rachieli.
+[Enrica Crivello](https://enricacrivello.it/chi/) è una persona che seguo da circa un anno o poco più. Mi piace quello che dice e come lo dice, mi piacciono i suoi video, mi piace il prodotto che cura con [Ivan Rachieli](http://iscarlets.it/).
 
 A proposito, il prodotto è [Guido](https://conguido.it/).
 

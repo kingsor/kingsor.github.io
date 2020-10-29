@@ -26,17 +26,17 @@ The goal of Kanban is to **identify potential bottlenecks** in your process and 
 ### Kanban Principles
 
 * Visualize your work
-    * 1. le colonne non sono stati di lavorazione
-    * 2. "blocked"è una colonna e non un'etichetta
-    * 3. le card tornano indietro da Test a Doing
+    * 1 le colonne non sono stati di lavorazione
+    * 2 "blocked"è una colonna e non un'etichetta
+    * 3 le card tornano indietro da Test a Doing
 * Limit your work in progress
-    * 4. non c'è nessun WIP Limit
-    * 5. raggiungere il WIP Limit è visto come un obiettivo
+    * 4 non c'è nessun WIP Limit
+    * 5 raggiungere il WIP Limit è visto come un obiettivo
 * Focus on the flow
-    * 6. non si prende la card più a destra
-    * 7. card sempre pre-assegnate alle persone
+    * 6 non si prende la card più a destra
+    * 7 card sempre pre-assegnate alle persone
 * Improve collaboratively
-    * 8. il processo non evolve
-    * 9. il team non è owner della Kanban
-    * 10. il processo è dettato dal tool
+    * 8 il processo non evolve
+    * 9 il team non è owner della Kanban
+    * 10 il processo è dettato dal tool
 

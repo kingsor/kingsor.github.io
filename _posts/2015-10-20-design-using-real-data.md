@@ -6,7 +6,7 @@ tags:
 - design
 - tools
 - data
-- ui
+- ixd
 ---
 
 *source*: [Modern Design Tools: Using Real Data](https://medium.com/bridge-collection/modern-design-tools-using-real-data-62d499e97482) (Jun 15, 2015)

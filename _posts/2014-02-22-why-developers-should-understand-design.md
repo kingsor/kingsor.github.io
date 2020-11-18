@@ -5,8 +5,7 @@ description: "Why it is usefull for developers to understand desing."
 tags:
 - developer
 - design
-- ux
-- ui
+- ixd
 ---
 
 source: [A Generalist Mentality](http://gluue.com/2010/02/a-generalist-mentality/)

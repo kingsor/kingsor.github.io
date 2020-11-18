@@ -6,8 +6,7 @@ tags:
 - manager
 - design
 - product
-- ux
-- ui
+- ixd
 ---
 
 [Julie Zhuo on the Lessons of Good Design](https://design.blog/2016/09/01/julie-zhuo-on-the-lessons-of-good-design/)

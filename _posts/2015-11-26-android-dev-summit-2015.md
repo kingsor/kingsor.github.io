@@ -5,7 +5,7 @@ description: "On November 23rd and 24th there has been the annual Android Dev Su
 tags:
 - mobile
 - android
-- developdeveloperment
+- developer
 - ide
 - devsummit 2015
 ---

@@ -6,20 +6,21 @@ title: "Home"
 <div class="posts">
 {% for post in site.posts %}
     {% unless post.draft %}
-        {% unless post.tags contains 'italang' %}
-        <div class="post">
-            <h2 class="post-title">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </h2>
-            <span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
-            {{ post.description }}
-        </div>
-        {% endunless %}
+    <div class="post">
+        <h2 class="post-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
+        {% if post.tags contains 'italang' %}
+        <strong> (ita)</strong>
+        {% endif %}
+        {{ post.description }}
+    </div>
     {% endunless %}
 {% endfor %}
 </div>
 
-<!-- <div class="pagination">
+<div class="pagination">
 {% if paginator.previous_page %}
 {% if paginator.page == 2 %}
     <a class="pagination-item newer" href="/">Newer</a>
@@ -34,4 +35,4 @@ title: "Home"
 {% else %}
     <span class="pagination-item older">Older</span>
 {% endif %}
-</div> -->
+</div>

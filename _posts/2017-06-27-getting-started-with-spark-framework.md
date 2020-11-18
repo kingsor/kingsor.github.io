@@ -2,10 +2,8 @@
 layout: post
 title: "Getting Started with Spark Framework"
 description: "Setting up a sample project using Spark Framework with Maven"
-category: Developer
-draft: false
 tags:
-- development
+- developer
 - side-project
 - java
 - maven

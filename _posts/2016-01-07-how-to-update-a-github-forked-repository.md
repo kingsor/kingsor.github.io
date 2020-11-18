@@ -2,9 +2,8 @@
 layout: post
 title: "How to update a GitHub forked repository"
 description: "I was looking for updating a forked repository and I found the answer on StackOverflow."
-category: Developer
 tags:
-- development
+- developer
 - git
 - github
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: "Android ListView, show a message if the list is empty"
 description: "This is the common way to show a message when the listview is empty."
-category: Developer
 tags:
 - developer
 - android

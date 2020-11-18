@@ -2,7 +2,6 @@
 layout: post
 title: "Visual Studio Project Type GUIDs"
 description: "Everything started opening a Visual Studio 2010 Solution and getting the following error: 'The project type is not supported by this installation.'"
-category: Developer
 tags:
 - developer
 - visual studio

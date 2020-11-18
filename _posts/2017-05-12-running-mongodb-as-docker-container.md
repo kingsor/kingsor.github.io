@@ -2,10 +2,8 @@
 layout: post
 title: "Running MongoDB as a Docker container"
 description: "Installing and creating a MongoDB database in a Docker container."
-category: Developer
-draft: false
 tags:
-- development
+- developer
 - side-project
 - mongodb
 - docker

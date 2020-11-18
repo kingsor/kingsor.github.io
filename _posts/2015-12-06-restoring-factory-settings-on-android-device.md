@@ -2,11 +2,10 @@
 layout: post
 title: "Restoring Factory Settings on Android Device"
 description: "I was looking for restoring my old Samsung Galaxy S2 for using it as a test machine and here is how I made."
-category: Developer
 tags:
 - mobile
 - android
-- development
+- developer
 - configuration
 ---
 

@@ -2,10 +2,9 @@
 layout: post
 title: "Things learned at Imgur"
 description: "A usefull list curated by Sam Gerstenzang about 16 product things he learned at Imgur."
-category: Manager
 tags:
 - product
-- management
+- manager
 - lessons learned
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "Design Using Real Data"
 description: "I believe one of the biggest flaws of today’s tools is their failure to allow designers to easily work with real data."
-category: Designer
 tags:
 - design
 - tools

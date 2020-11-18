@@ -2,11 +2,10 @@
 layout: post
 title: "IDE Plugins for Android Development"
 description: "A curated list of Android Studio plugins by Linton Ye ..."
-category: Developer
 tags:
 - mobile
 - android
-- development
+- developer
 - plugins
 - ide
 ---

@@ -2,9 +2,8 @@
 layout: post
 title: "From Monolith to Micro-Services"
 description: "Micro-services are not (only) about technology"
-category: Developer
 tags:
-- development
+- developer
 - micro-services
 - scalability
 - architecture

@@ -2,11 +2,10 @@
 layout: post
 title: "Basecamp The origin"
 description: "To us project management was all about communication. None of the software makers at the time seemed to agree. So we decided to make our own."
-category: Manager
 tags:
 - basecamp
+- manager
 - product
-- product development
 - 37signals
 ---
 

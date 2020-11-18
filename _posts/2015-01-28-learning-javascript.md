@@ -2,10 +2,9 @@
 layout: post
 title: "Learning Javascript"
 description: "This is a list of interesting links I collected with the goal of learning javascript."
-category: Developer
 tags:
 - javascript
-- development
+- developer
 - learning
 ---
 

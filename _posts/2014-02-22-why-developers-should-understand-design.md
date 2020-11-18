@@ -2,7 +2,6 @@
 layout: post
 title: "Why Developers Should Understand Design"
 description: "Why it is usefull for developers to understand desing."
-category: Developer
 tags:
 - developer
 - design

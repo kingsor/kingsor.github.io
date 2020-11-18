@@ -2,7 +2,6 @@
 layout: post
 title: "Android Open Source Apps"
 description: "In order to improve my skills on android development I always search for sample code and valueable apps from which learning new things. ..."
-category: Developer
 tags:
 - android
 - app

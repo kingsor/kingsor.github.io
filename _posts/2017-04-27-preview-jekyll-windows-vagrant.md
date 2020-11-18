@@ -2,10 +2,8 @@
 layout: post
 title: "Preview GitHub Pages on Windows 10 with Vagrant"
 description: "How to preview your GitHub Pages (Jekyll) on Windows 10 with Vagrant"
-category: Developer
-draft: false
 tags:
-- development
+- developer
 - jekyll
 - vagrant
 - github pages

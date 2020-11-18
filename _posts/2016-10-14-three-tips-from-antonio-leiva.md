@@ -2,11 +2,9 @@
 layout: post
 title: "Three tips from Antonio Leiva"
 description: "Top three tips to become an expert developer by Antonio Leiva"
-category: Developer
-draft: false
 tags:
 - android
-- development
+- developer
 - tips
 ---
 

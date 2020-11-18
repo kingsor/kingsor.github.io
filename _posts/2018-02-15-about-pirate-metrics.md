@@ -6,7 +6,6 @@ tags:
 - manager
 - side-project
 - product
-- product development
 ---
 
 *source*: [Don't Market Your App If You Don't Know This - Pirate Metrics for Mobile Apps](https://www.linkedin.com/pulse/20141003035101-4960226-don-t-market-your-app-if-you-don-t-know-this-pirate-metrics-for-mobile-apps/)

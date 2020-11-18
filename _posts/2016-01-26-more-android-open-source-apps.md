@@ -2,13 +2,12 @@
 layout: post
 title: "More Android Open Source Apps"
 description: "There are more android open source apps I found on the internet that are usefull to improve android development learning."
-category: Developer
 tags:
 - android
 - app
 - open source
 - learning
-- development
+- developer
 - mobile
 ---
 

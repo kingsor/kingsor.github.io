@@ -2,11 +2,9 @@
 layout: post
 title: "Your job is not (only) to write code"
 description: "Interesting point of view about improving the product developers work for"
-category: Developer
-draft: false
 tags:
 - manager
-- development
+- developer
 - product
 ---
 

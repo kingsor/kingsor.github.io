@@ -2,10 +2,8 @@
 layout: post
 title: "Deploy a side project on AppHarbor"
 description: "Deploy a simple side project on AppHarbor with some troubles."
-category: Developer
-draft: false
 tags:
-- development
+- developer
 - appharbor
 - side-project
 - asp-net

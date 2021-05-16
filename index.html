@@ -10,11 +10,12 @@ title: "Home"
         <h2 class="post-title">
             <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
+        {% if post.tags contains 'italang' %}
+        <span class="post-lang">[ita] </span>
+        {% endif %}
         <span class="post-date">
-            {% if post.tags contains 'italang' %}
-            <strong>(ita) </strong>
-            {% endif %}
-            {{ post.date | date: "%B %e, %Y" }}
+            
+            {{ post.date | date: "%b %e, %Y" }}
         </span>
         
         {{ post.description }}

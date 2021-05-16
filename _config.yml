@@ -19,13 +19,14 @@ linkedin:       'https://www.linkedin.com/in/kingsor'
 twitter:        'https://twitter.com/kingsor'
 github:         'https://github.com/kingsor'
 medium:         'https://medium.com/@kingsor'
-twitter_name:	'@kingsor'
+twitter_name:   '@kingsor'
 
 # Google Analytics
 gahandler: 'UA-3163855-4'
 
 # Blog Configurations
 paginate: 5
+paginate_path: /page:num/
 
 destination: ./_site
 

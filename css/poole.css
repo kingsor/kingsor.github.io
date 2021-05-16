@@ -313,7 +313,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .post-lang {
-  display: block;
+  display: inline;
   color: #797979;
 }
 

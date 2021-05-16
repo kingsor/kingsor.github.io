@@ -20,7 +20,7 @@ description: Page with links to all articles of the blog
         <a href="{{ post.url }}" class="green-link">{{ post.title }}</a>
         ({{ post.date | date: "%b %e" }})
         {% if post.tags contains 'italang' %}
-          <span class="post-lang"> [ita]</span>
+          <div class="post-lang"> [ita]</div>
         {% endif %}
       </li>
     {% endunless %}

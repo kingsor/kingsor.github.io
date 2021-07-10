@@ -1,62 +1,93 @@
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    
-    <div class="sidebar-about sidebar-title">
-      <a href="/" title="Link to homepage for {{ site.title }}">
-        <img src="{{ site.logo }}" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo" />
+<!--
+  The Side Bar
+-->
+
+<div id="sidebar" class="d-flex flex-column align-items-end">
+
+  <div class="profile-wrapper text-center">
+    <div id="avatar">
+      <a href="{{ '/' | relative_url }}" alt="avatar" class="mx-auto">
+        {% capture avatar_url %}
+          {%- if site.avatar contains '://' -%}
+            {{ site.avatar }}
+          {%- elsif site.img_cdn != '' and site.img_cdn -%}
+            {{ site.avatar | prepend: site.img_cdn }}
+          {%- else -%}
+            {{ site.avatar | relative_url }}
+          {%- endif -%}
+        {% endcapture %}
+        <img src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
       </a>
-      <h2>
-        <a class="sidebar-link" href="/">{{ site.title }}</a>
-      </h2>
-      <p class="sidebar-subtitle">{{ site.description }}</p>
     </div>
 
-    <div class="sidebar-social">
-      <ul class="navigation">
-        <!-- DEV.to -->
-        <!--
-        <li class="social-item dev">
-          <a href="https://dev.to/kingsor" title="me on DEV.to" target="_blank">
-            <i class='icon dev-badge'></i>
-          </a>
-        </li>
-        -->
-        <!-- Twitter -->
-        <li class="social-item twitter">
-          <a href="{{ site.twitter }}" title="me on Twitter" target="_blank">
-            <i class='icon fi-social-twitter'></i>
-          </a>
-        </li>
-        <!-- GitHub -->
-        <li class="social-item github">
-          <a href="{{ site.github }}" title="me on GitHub" target="_blank">
-            <i class='icon fi-social-github'></i>
-          </a>
-        </li>
-        <!-- LinkedIn -->
-        <li class="social-item linkedin">
-          <a href="{{site.linkedin}}" title="me on LinkedIn" target="_blank">
-            <i class='icon fi-social-linkedin'></i>
-          </a>
-        </li>
-        <!-- Medium -->
-        <li class="social-item medium">
-          <a href="{{site.medium}}" title="me on Medium" target="_blank">
-            <i class='icon fi-social-medium'></i>
-          </a>
-        </li>
-      </ul>
+    <div class="site-title mt-3">
+      <a href="{{ '/' | relative_url }}">{{- site.title -}}</a>
     </div>
 
-    <div class="sidebar-nav">
-      <a class="sidebar-nav-item" title="Tags used in this blog" href="/tags/">Tags</a>
-      <a class="sidebar-nav-item" title="My posts in italian language" href="/italang/">Italian</a>
-      <a class="sidebar-nav-item" title="The list of all my posts" href="/archive/">Archive</a>
-      <a class="sidebar-nav-item" title="A list of resources usefull as a developer" href="/resources/">Resources</a>
-      <!--
-      <a class="sidebar-nav-item" href="/about/">About</a>
-      -->
-    </div>
+    <div class="site-subtitle font-italic">{{- site.tagline -}}</div>
 
-  </div>
-</div>
+  </div><!-- .profile-wrapper -->
+
+  <ul class="w-100">
+    <!-- home -->
+    <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
+      <a href="{{ '/' | relative_url }}" class="nav-link">
+        <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i>
+        <span>{{ "HOME" }}</span>
+      </a>
+    </li>
+    <!-- the real tabs -->
+    {% for tab in site.tabs %}
+    <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
+      <a href="{{ tab.url | relative_url }}" class="nav-link">
+        <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
+        <span>{{ tab.title | upcase }}</span>
+      </a>
+    </li> <!-- .nav-item -->
+    {% endfor %}
+
+  </ul> <!-- ul.nav.flex-column -->
+
+  <div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center">
+
+    {% for entry in site.data.contact %}
+      {% capture url %}
+        {%- if entry.type == 'linkedin' -%}
+	      {{ entry.url }}
+		{%- elsif entry.type == 'github' -%}
+          https://github.com/{{ site.github.username }}
+        {%- elsif entry.type == 'twitter' -%}
+          https://twitter.com/{{ site.twitter.username }}
+        {%- elsif entry.type == 'email' -%}
+          {% assign email = site.social.email | split: '@' %}
+          javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+        {%- elsif entry.type == 'rss' -%}
+          {{ "/feed.xml" | relative_url }}
+        {%- else -%}
+          {{ entry.url }}
+        {%- endif -%}
+      {% endcapture %}
+
+      {% if url %}
+      <a href="{{ url }}" aria-label="{{ entry.type }}"
+        {% unless site.theme_mode %}class="order-{{ forloop.index | plus: 2 }}"{% endunless %}
+        {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
+        <i class="{{ entry.icon }}"></i>
+      </a>
+      {% endif %}
+
+    {% endfor %}
+
+    {% unless site.theme_mode %}
+      {% if site.data.contact.size > 0 %}
+        <span class="icon-border order-2"></span>
+      {% endif %}
+
+      <span id="mode-toggle-wrapper" class="order-1">
+        {% include mode-toggle.html %}
+      </span>
+    {% endunless %}
+
+  </div> <!-- .sidebar-bottom -->
+
+</div><!-- #sidebar -->

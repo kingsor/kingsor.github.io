@@ -4,8 +4,9 @@ title: "Simple If/Else Razor Syntax"
 description: "About error: Encountered end tag 'tr' with no matching start tag"
 tags:
 - developer
-- note-to-self
-- stackoverflow
+- til
+- asp-net
+- asp-net-core
 ---
 
 I was looking for solving this error:

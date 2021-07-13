@@ -13,32 +13,11 @@
       <span>{{ 'Posts' }}</span>
     {% else %}
 
-      {% for item in paths %}
+      <span>
+        <a href="{{ '/' | relative_url }}">{{ 'Home' }}</a>
+      </span>
 
-        {% if forloop.first %}
-          {% unless page.layout == 'post' %}
-          <span>
-            <a href="{{ '/' | relative_url }}">{{ 'Home' }}</a>
-          </span>
-          {% endunless %}
-
-        {% elsif forloop.last %}
-          <span>{{ page.title }}</span>
-
-        {% else %}
-        <span>
-          {% assign url = item %}
-          {% if item == 'posts' and page.layout == 'post' %}
-            {% assign url = '/' %}
-          {% endif %}
-          <a href="{{ url | relative_url }}">
-            {{ item | capitalize }}
-          </a>
-        </span>
-
-        {% endif %}
-
-      {% endfor %}
+      <span>{{ page.title }}</span>
 
     {% endif %}
 

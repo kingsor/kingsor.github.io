@@ -20,12 +20,10 @@ title: One inch at a time
 tagline: My journey in software development and beyond
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  My journey in software development and beyond
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://kingsor.github.io'
 
 github:
   username: kingsor

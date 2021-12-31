@@ -9,7 +9,7 @@ tags:
 - kanban
 ---
 
-[10 Kanban Smells - Pietro Campagnano - Crafted Software Milan 17/01/2019](https://www.youtube.com/watch?v=N6Yu5qODoR4)
+Ecco il link ad un interessante talk di [Pietro Campagnano](https://twitter.com/fain182), tenuto a Milano ad una serata organizzata da [Crafted Software](https://www.craftedsoftware.org/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N6Yu5qODoR4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -23,7 +23,7 @@ Kanban visualizes both **the process** (the workflow) and the actual **work** pa
 
 The goal of Kanban is to **identify potential bottlenecks** in your process and **fix them** so work can flow through it cost-effectively at an optimal speed or throughput.
 
-### Kanban Principles
+## Kanban Principles
 
 * Visualize your work
     * 1 le colonne non sono stati di lavorazione

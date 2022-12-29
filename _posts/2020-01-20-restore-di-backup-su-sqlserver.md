@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Restore di un backup su SQL Server"
-description: "Come fare il restore di un backup su SQL Server su docker"
+description: "Come fare il restore di un backup su un'immagine docker di SQL Server per Linux"
 tags:
 - developer
 - database
@@ -10,7 +10,7 @@ tags:
 - til
 ---
 
-Per prima cosa ho fatto partire un'immagine docker di SQL Server 2019 per Linux:
+Per prima cosa ho fatto partire [un'immagine docker di SQL Server 2019 per Linux](https://mcr.microsoft.com/en-us/product/mssql/server/about):
 
 ```bash
 docker run --name sqlserver-2019 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ti6collegato!' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
@@ -25,7 +25,7 @@ Per il file di backup ho utilizzato quello relativo al database AdventureWorks20
 Quindi è necessario copiare il file .bak dentro al container utilizzando questo comando:
 
 ```bash
-docker cp EasySurveyDatabaseDeployment.bak sqlserver-2019:/var/opt/mssql/data/AdventureWorks2019.bak
+docker cp AdventureWorks2019.bak sqlserver-2019:/var/opt/mssql/data/AdventureWorks2019.bak
 ```
 
 qui ho trovato l'esempio utile per la copia: [Copying files from host to Docker container](https://stackoverflow.com/questions/22907231/copying-files-from-host-to-docker-container)
@@ -47,11 +47,17 @@ Ho risolto grazie a questo post su StackOverflow: [The backup set holds a backup
 > * Don't create an empty database and restore the .bak file on to it.
 > * Use 'Restore Database' option accessible by right clicking the "Databases" branch of the SQL Server Management Studio and provide the database name while providing the source to restore.
 
-Dal nodo "Databases" ho selezionato "Restore Databases...". Sulla dialog che appare, seleziono Source -> Device e quindi seleziono il file .bak che mi interessa. A quel punto su Options, seleziono "Overwrite the existing database" (anche se il database non esiste) e premo OK. E il restore va a buon fine.
+In pratica non serve creare un database vuoto. Ho cancellato il database che avevo creato su SSMS e ho seguito questi passi:
+
+- Dal nodo "Databases" ho selezionato "Restore Databases...".
+- Sulla dialog che appare, seleziono Source -> Device e quindi seleziono il file .bak che mi interessa.
+- A quel punto su Options, seleziono "Overwrite the existing database" (anche se il database non esiste) e premo OK.
+
+E il restore va a buon fine.
 
 
 ## Link utili
 
-* [Microsoft SQL Server - Docker Hub](https://hub.docker.com/_/microsoft-mssql-server) - Immagini ufficiali per Microsoft SQL Server basate su Ubuntu.
+* [Microsoft SQL Server - Microsoft Artifact Registry](https://mcr.microsoft.com/en-us/product/mssql/server/about) - Immagini ufficiali per Microsoft SQL Server basate su Ubuntu.
 * [Quickstart: Run SQL Server container images with Docker](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash) (Apr 11, 2019) - In this quickstart, you use Docker to pull and run the SQL Server 2019 container image, [mssql-server](https://hub.docker.com/r/microsoft/mssql-server). Then connect with `sqlcmd` to create your first database and run queries. This image consists of SQL Server running on Linux based on Ubuntu 16.04. It can be used with the Docker Engine 1.8+ on Linux or on Docker for Mac/Windows. This quickstart specifically focuses on using the SQL Server on **linux** image. The Windows image is not covered, but you can learn more about it on the [mssql-server-windows-developer](https://hub.docker.com/r/microsoft/mssql-server-windows-developer/) Docker Hub page.
 

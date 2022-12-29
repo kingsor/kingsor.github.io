@@ -2,7 +2,7 @@
 layout: post
 title: ".NET Conf 2021 Videos"
 description: "A comprehensive list of all .NET Conf 2021 videos"
-hidden: true
+published: false
 tags:
 - developer
 - dotnet-conf

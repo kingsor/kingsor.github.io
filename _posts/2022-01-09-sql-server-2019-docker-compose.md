@@ -19,7 +19,7 @@ docker run --name sqlserver-2019 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ti6collegato
 
 per poi connettermi al server con [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) per interagire con database e tabelle.
 
-Ma mi sono reso conto che non utilizzo un [volume](https://docs.docker.com/storage/volumes/) e quindi i dati sono salvati all'interno dell'immagine docker. Se volessi passare ad una nuova versione dell'immagine perderei ogni dato.
+Ma mi sono reso conto che non utilizzo un [volume](https://docs.docker.com/storage/volumes/) e quindi i dati sono salvati all'interno del [container](https://www.docker.com/resources/what-container/) docker. Se volessi passare ad una nuova versione dell'immagine per generare un nuovo container perderei ogni dato.
 
 Per avere una visualizzazione più chiara dei vari parametri relativi all'immagine docker, ho pensato di utilizzare [Docker Compose](https://docs.docker.com/compose/).
 
@@ -29,7 +29,7 @@ L'autore descrive come installare SQL Server 2019 per Linux utilizzando [Docker]
 
 Ecco il file `docker-compose.yml`
 
-```YAML
+```yml
 version: "3.7"
 services:
     db:
@@ -46,4 +46,14 @@ services:
 volumes:
     mssql-2019-data:
 ```
+
+A questo punto, dal folder nel quale si trova il file .yml si può eseguire questo comando:
+
+```bash
+docker-compose up -d
+```
+
+Questo [comando](https://docs.docker.com/engine/reference/commandline/compose_up/) crea il container con SQL Server 2019 e il volume (`mssql-2019-data`) che contiene i dati se non esistono già e poi fa partire il container.
+
+Per poter utilizzare il file .yml anche in altre occasioni, ho creato un repository su github: [mssql-compose](https://github.com/kingsor/mssql-compose).
 

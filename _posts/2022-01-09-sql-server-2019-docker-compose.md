@@ -1,0 +1,49 @@
+---
+layout: post
+title: "SQL Server 2019 con docker compose"
+description: "Come utilizzare docker compose per instanziare SQL Server 2019"
+tags:
+- developer
+- database
+- sql-server
+- docker
+- docker-compose
+- til
+---
+
+Come ho [scritto tempo fa](/2020/01/20/restore-di-backup-su-sqlserver/), utilizzo [SQL Server 2019 per Linux con docker](https://mcr.microsoft.com/en-us/product/mssql/server/about) lanciando questo comando:
+
+```bash
+docker run --name sqlserver-2019 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ti6collegato!' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+```
+
+per poi connettermi al server con [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) per interagire con database e tabelle.
+
+Ma mi sono reso conto che non utilizzo un [volume](https://docs.docker.com/storage/volumes/) e quindi i dati sono salvati all'interno dell'immagine docker. Se volessi passare ad una nuova versione dell'immagine perderei ogni dato.
+
+Per avere una visualizzazione più chiara dei vari parametri relativi all'immagine docker, ho pensato di utilizzare [Docker Compose](https://docs.docker.com/compose/).
+
+Dopo una ricerca su google, ho trovato questo post scritto da [Jason Robert](https://espressocoder.com/about/): [Exploring SQL Server 2019 with Docker](https://espressocoder.com/2020/07/07/exploring-sql-server-2019-with-docker/).
+
+L'autore descrive come installare SQL Server 2019 per Linux utilizzando [Docker](https://www.docker.com/products/docker-desktop). Nel suo caso la necessità è quella di poter utilizzare SQL Server su MacBook. E alla fine descrive come utilizzare Docker Compose perchè anche lui preferisce il file YAML per la possibilità di visualizzare i parametri in maniera chiara rispetto alla linea di comando. Sebbene Docker Compose sia pensato per lanciare diversi containers contemporaneamente, è possibile anche utilizzarlo per lanciare un singolo container.
+
+Ecco il file `docker-compose.yml`
+
+```YAML
+version: "3.7"
+services:
+    db:
+        container_name: mssql-2019
+        image: mcr.microsoft.com/mssql/server:2019-latest
+        ports:
+            - 1433:1433
+        restart: always
+        volumes: 
+            - mssql-2019-data:/var/opt/mssql
+        environment:
+            SA_PASSWORD: "Ti6collegato!"
+            ACCEPT_EULA: "Y"
+volumes:
+    mssql-2019-data:
+```
+

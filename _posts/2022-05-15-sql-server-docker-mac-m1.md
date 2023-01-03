@@ -25,7 +25,8 @@ E ho scoperto che purtroppo SQL Server 2019 non supporta immagini docker per pro
 
 Dopo un po' di ricerca su Google, ho trovato questo articolo - [How to Install SQL Server on an M1 Mac (ARM64)](https://database.guide/how-to-install-sql-server-on-an-m1-mac-arm64/) - che spiega come ovviare al problema utilizzando [Azure SQL Edge](https://azure.microsoft.com/en-us/products/azure-sql/edge/) che invece supporta i processori ARM.
 
-Azure SQL Edge is an optimized relational database engine geared for IoT and IoT Edge deployments. It’s built on the latest versions of the SQL Server Database Engine, so you can use T-SQL code just like you would when using SQL Server. You can also use the same tools to query Azure SQL Edge that you would use with SQL Server (such as [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15), [Azure Data Studio](https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15)).
+Azure SQL Edge è un database relazionale ottimizzato per le distribuzioni IoT e IoT Edge. È basato sulle ultime versioni di SQL Server, quindi si può utilizzare [T-SQL](https://learn.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver15) come su SQL Server.
+Per eseguire query e comandi si possono utilizzare gli stessi strumenti disponibili per SQL Server (come [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15), [Azure Data Studio](https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15)).
 
 Quindi eseguendo questo comando:
 

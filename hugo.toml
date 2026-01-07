@@ -10,6 +10,10 @@ pygmentsCodefencesGuessSyntax = true
 
 pagination.pagerSize = 5
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
     name = "Edoardo Inamo"
     author = "Edoardo Inamo"

@@ -1,0 +1,154 @@
+baseURL = "https://edodev-hugo.netlify.app/"
+defaultContentLanguage = "it"
+defaultContentLanguageInSubdir = true
+theme = "anatole"
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+pagination.pagerSize = 5
+
+[params]
+    name = "Edoardo Inamo"
+    author = "Edoardo Inamo"
+    profilePicture = "images/profile.jpg"
+    year = 2017
+    avatar = "images/profile.jpg"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/landscape.jpg"
+    favicon = "favicons/"
+    DateForm = "January 2, 2006"
+    localizedDates = true
+    disableTitleCapitalization = true
+
+    reversepagetitle = true
+    doNotLoadAnimations = true
+    #contentratio = 0.7
+    disableThemeSwitcher = false
+    disableArchiveTitleStyling = true
+    displayMode = "dark"
+
+    fullPostContent = false
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownloads = true
+    showClients = true
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = true
+    showFooterFormWidget = true
+
+
+
+[languages]
+
+[languages.it]
+    weight = 1
+    languageCode = "it"
+    languageName = "Ita"
+    contentDir = "content/italian"
+
+[languages.it.params]
+    title = "Edoardo Inamo - Product-Oriented Software Developer"
+    description = "Product-Oriented Software Developer \nConverto le esigenze dei clienti in prodotti digitali che soddisfano gli utenti"
+    pivaDesc = "Partita IVA"
+    pivaNumber = "10939260963"
+
+[[languages.it.menu.main]]
+    name = "Home"
+    identifier = "home"
+    url = "/it/"
+    weight = 100
+    
+[[languages.it.menu.main]]
+    name = "Blog"
+    identifier = "posts"
+    url = "/it/post/"
+    weight = 200
+
+[[languages.it.menu.main]]
+    name = "Chi Sono"
+    weight = 400
+    identifier = "about"
+    url = "/it/about/"
+
+[[languages.it.menu.main]]
+    name = "Servizi"
+    weight = 500
+    identifier = "services"
+    url = "/it/services/"
+
+[languages.en]
+    weight = 2
+    languageCode = "en"
+    languageName = "Eng"
+    contentDir = "content/english"
+    
+[languages.en.params]
+    title = "Edoardo Inamo - Product-Oriented Software Developer"
+    description = "Product-Oriented Software Developer \nConverting customers needs into digital products that delight users"
+    pivaDesc = "VAT Number"
+    pivaNumber = "10939260963"
+
+[[languages.en.menu.main]]
+    name = "Home"
+    identifier = "home"
+    url = "/en/"
+    weight = 100
+    
+[[languages.en.menu.main]]
+    name = "Blog"
+    identifier = "posts"
+    url = "/en/post/"
+    weight = 200
+
+[[languages.en.menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 400
+    url = "/en/about/"
+
+[[languages.en.menu.main]]
+    name = "Services"
+    weight = 500
+    identifier = "services"
+    url = "/en/services/"
+
+
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+
+
+[[params.socialIcons]]
+	title = "LinkedIn"
+	url = "https://www.linkedin.com/in/edoardo-inamo-2431168"
+    icon = "fab fa-linkedin"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+[[params.socialIcons]]
+	title = "GitHub"
+	url = "https://github.com/kingsor"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.socialIcons]]
+	title = "Bluesky"
+	url = "https://bsky.app/profile/edoardoinamo.bsky.social"
+    icon = "fab fa-bluesky"
+    footer = true
+    sharethis = false
+    network = ""
+
+
